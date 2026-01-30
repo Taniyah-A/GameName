@@ -1,39 +1,94 @@
-using System.Collections;
-
-using System.Collections.Generic;
-using System.Threading;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class player_movement : MonoBehaviour
+[RequireComponent(typeof(CharacterController))]
+public class PlayerController : MonoBehaviour
 {
+    [Header("Movement")]
+    [SerializeField] public float moveSpeed = 5f;
+    [SerializeField] public float jumpHeight = 2f;
+    [SerializeField] public float gravity = -9.81f;
 
-    PlayerInput playerInput;
-    InputAction moveAction;
+    [Header("Camera")]
+    public Transform cameraTransform;
+    [SerializeField] public float lookSpeed = 0.1f;
+    [SerializeField] public float maxLookAngle = 80f;
 
-    [SerializeField] private float MoveMultiplier;
+    private CharacterController controller;
+    private Vector3 velocity;
+    private float xRotation = 0f;
 
+    private PlayerInput playerInput;
+    private InputAction moveAction;
+    private InputAction lookAction;
+    private InputAction jumpAction;
 
+    private Vector2 moveInput;
+    private Vector2 lookInput;
 
-   
-
-    void Start()
+    private void Awake()
     {
+        controller = GetComponent<CharacterController>();
         playerInput = GetComponent<PlayerInput>();
-        moveAction = playerInput.actions.FindAction("Move");
+
+        // Get actions directly from the PlayerInput component
+        moveAction = playerInput.actions["Move"];
+        lookAction = playerInput.actions["Look"];
+        jumpAction = playerInput.actions["Jump"];
     }
 
-
-    void Update()
+    private void OnEnable()
     {
-        MovePlayer();
+        moveAction.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
+        moveAction.canceled += ctx => moveInput = Vector2.zero;
 
+        lookAction.performed += ctx => lookInput = ctx.ReadValue<Vector2>();
+        lookAction.canceled += ctx => lookInput = Vector2.zero;
+
+        jumpAction.performed += ctx => Jump();
     }
 
-
-    void MovePlayer()
+    private void OnDisable()
     {
-        Vector2 dirction = moveAction.ReadValue<Vector2>();
-        transform.position += new Vector3(dirction.x * MoveMultiplier, 0, dirction.y * MoveMultiplier) * Time.deltaTime;
+        moveAction.performed -= ctx => moveInput = ctx.ReadValue<Vector2>();
+        moveAction.canceled -= ctx => moveInput = Vector2.zero;
+
+        lookAction.performed -= ctx => lookInput = ctx.ReadValue<Vector2>();
+        lookAction.canceled -= ctx => lookInput = Vector2.zero;
+
+        jumpAction.performed -= ctx => Jump();
+    }
+
+    private void Update()
+    {
+        Move();
+        Look();
+    }
+
+    private void Move()
+    {
+        Vector3 move = transform.right * moveInput.x + transform.forward * moveInput.y;
+        controller.Move(move * moveSpeed * Time.deltaTime);
+
+        velocity.y += gravity * Time.deltaTime;
+        controller.Move(velocity * Time.deltaTime);
+
+        if (controller.isGrounded && velocity.y < 0)
+            velocity.y = -2f;
+    }
+
+    private void Look()
+    {
+        xRotation -= lookInput.y * lookSpeed;
+        xRotation = Mathf.Clamp(xRotation, -maxLookAngle, maxLookAngle);
+
+        cameraTransform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        transform.Rotate(Vector3.up * lookInput.x * lookSpeed);
+    }
+
+    private void Jump()
+    {
+        if (controller.isGrounded)
+            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
     }
 }
