@@ -8,6 +8,7 @@ using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(CharacterController))]
 [RequireComponent(typeof(PlayerInput))]
+[RequireComponent(typeof(Animator))]
 
 public class PlayerController : MonoBehaviour
 {
@@ -42,10 +43,17 @@ public class PlayerController : MonoBehaviour
     private Vector2 moveInput;
     private Vector2 lookInput;
 
+
+    // anamator
+
+    Animator animator;
+
+
     private void Awake()
     {
         controller = GetComponent<CharacterController>();
         playerInput = GetComponent<PlayerInput>();
+        animator = GetComponent<Animator>();
 
         // Get actions directly from the PlayerInput component
         moveAction = playerInput.actions["Move"];
@@ -73,14 +81,18 @@ public class PlayerController : MonoBehaviour
         Vector3 move = new Vector3(input.x, 0f, input.y).normalized;
 
         if (move.magnitude >= 0.1f) {
+            animator.SetBool("isWalking", true);
             float targAngle = Mathf.Atan2(move.x, move.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
 
-            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y,  targAngle, ref turnsmoothVelocity, smoothturn);
+            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targAngle, ref turnsmoothVelocity, smoothturn);
             transform.rotation = Quaternion.Euler(0, angle, 0);
 
             Vector3 movedir = Quaternion.Euler(0, targAngle, 0) * Vector3.forward;
 
             controller.Move(movedir.normalized * speed * Time.deltaTime);
+        }
+        else {
+            animator.SetBool("isWalking", false);
         }
         
     }
@@ -93,9 +105,14 @@ public class PlayerController : MonoBehaviour
 
             playerVelocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
+        if (!isGrounded) {
+            animator.SetBool("isJumping", true);
+        } else {
+            animator.SetBool("isJumping", false);
+        }
 
 
-        playerVelocity.y += gravity * Time.deltaTime;
+            playerVelocity.y += gravity * Time.deltaTime;
 
         controller.Move(playerVelocity * Time.deltaTime);
     }
