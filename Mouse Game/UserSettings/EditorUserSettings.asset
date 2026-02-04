@@ -5,7 +5,19 @@ EditorUserSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 4
   m_ConfigSettings:
+    GraphicsSettingsInspector_UserSettings:
+      value: 18134705175a055722080a3115371d4a0d55006876786860616b0471b8b1666db4a966f4ab782f352907e3350a3b272afe063d12e60e240a1c0bbf5453ca1e1a05dc3dcb1dc11119852b19c0c918c3eadbd19adfd6e2f1ddcccca1febac5e0f1e3f4b7e8aba4cec5a4abfba39fcbd7c1cdc3b9c1edd5dac2ae90cc
+      flags: 0
     RecentlyUsedSceneGuid-0:
+      value: 0602525650540c0f540d547313205c4447151d7c792b7131757f4d62b5b76161
+      flags: 0
+    RecentlyUsedSceneGuid-1:
+      value: 570600075d060c0b555d5a7a40740e4443154c7a7d2d73362f714536bab66d6a
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 5404005504535103545b587a477b0d44124f487b2e7820367c281e35bbb76360
+      flags: 0
+    RecentlyUsedSceneGuid-3:
       value: 5a08575f5207595a0f5d59741173094444164f7d7d2a23317c7a4465bbe1646d
       flags: 0
     vcSharedLogLevel:
