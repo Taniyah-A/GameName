@@ -19,6 +19,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float speed = 6f;
     [SerializeField] float smoothturn = 0.1f;
 
+
+    [Header("Leeway Settings")]
+    [SerializeField] float coyoteTime = 0.1f; // How long the grace period lasts
+    private float coyoteTimeCounter;
+
+
     float turnsmoothVelocity;
 
     [Header("pysics")]
@@ -47,6 +53,9 @@ public class PlayerController : MonoBehaviour
     // anamator
 
     Animator animator;
+    //hashed animations 
+    private static readonly int IsWalkingHash = Animator.StringToHash("isWalking");
+    private static readonly int IsJumpingHash = Animator.StringToHash("isJumping");
 
 
     private void Awake()
@@ -66,10 +75,13 @@ public class PlayerController : MonoBehaviour
 
     private void Update() {
         isGrounded = controller.isGrounded;
-        if (isGrounded && playerVelocity.y < 0)
+        if (isGrounded)
         {
-
+            coyoteTimeCounter = coyoteTime;
             playerVelocity.y = -2f;
+        }
+        else { 
+            coyoteTimeCounter -= Time.deltaTime;
         }
 
         Move();
@@ -81,7 +93,7 @@ public class PlayerController : MonoBehaviour
         Vector3 move = new Vector3(input.x, 0f, input.y).normalized;
 
         if (move.magnitude >= 0.1f) {
-            animator.SetBool("isWalking", true);
+            animator.SetBool(IsWalkingHash, true);
             float targAngle = Mathf.Atan2(move.x, move.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
 
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targAngle, ref turnsmoothVelocity, smoothturn);
@@ -92,7 +104,7 @@ public class PlayerController : MonoBehaviour
             controller.Move(movedir.normalized * speed * Time.deltaTime);
         }
         else {
-            animator.SetBool("isWalking", false);
+            animator.SetBool(IsWalkingHash, false);
         }
         
     }
@@ -100,15 +112,17 @@ public class PlayerController : MonoBehaviour
     private void ApplyGravityAndJump()
     {
 
-        if (jumpAction.triggered && isGrounded)
+        if (jumpAction.triggered && coyoteTimeCounter > 0f)
         {
 
             playerVelocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            coyoteTimeCounter = 0f;
         }
         if (!isGrounded) {
-            animator.SetBool("isJumping", true);
+            animator.SetBool(IsJumpingHash, true);
+            
         } else {
-            animator.SetBool("isJumping", false);
+            animator.SetBool(IsJumpingHash, false);
         }
 
 
