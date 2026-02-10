@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Specialized;
+using System.ComponentModel;
 using System.Security.Cryptography;
 using System.Threading;
 using UnityEngine;
@@ -34,6 +35,15 @@ public class PlayerController : MonoBehaviour
 
     private Vector3 playerVelocity; // Tracks vertical speed (gravity/jumping)
     private bool isGrounded;
+
+
+
+    [Header("pysics Mushroom")]
+
+    [SerializeField] float bounceForce = 15f; // Rename 'force' to 'bounceForce' for clarity
+    [SerializeField] float bounceDecay = 4f;  // Higher number = shorter bounce
+    private Vector3 externalForce; // This stores the current active bounce push
+
 
     [Header("Camera")]
 
@@ -88,11 +98,33 @@ public class PlayerController : MonoBehaviour
         ApplyGravityAndJump();
     }
 
+
+
+
+
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if (hit.gameObject.CompareTag("Mushroom"))
+        {
+            Vector3 vect = hit.transform.up;
+
+
+            playerVelocity = Vector3.zero;
+            coyoteTimeCounter = 0f;
+
+            externalForce = vect * bounceForce;
+
+        }
+    }
+
+
+
+
     private void Move() {
         Vector2 input = moveAction.ReadValue<Vector2>();
         Vector3 move = new Vector3(input.x, 0f, input.y).normalized;
 
-        if (move.magnitude >= 0.1f) {
+        if (move.magnitude >= 0.001f) {
             animator.SetBool(IsWalkingHash, true);
             float targAngle = Mathf.Atan2(move.x, move.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
 
@@ -111,6 +143,17 @@ public class PlayerController : MonoBehaviour
 
     private void ApplyGravityAndJump()
     {
+
+        if (externalForce.magnitude > 0.1f)
+        {
+            // Move the controller by the current force
+            controller.Move(externalForce * Time.deltaTime);
+
+            // "Decay" the force (Losing energy over time)
+            externalForce = Vector3.Lerp(externalForce, Vector3.zero, bounceDecay * Time.deltaTime);
+        }
+
+
 
         if (jumpAction.triggered && coyoteTimeCounter > 0f)
         {

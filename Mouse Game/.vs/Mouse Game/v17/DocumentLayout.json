@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\player\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ericm\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\start of Erbeio3d builtin rp\\mushrooms\\mushroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\start of Erbeio3d builtin rp\\mushrooms\\mushroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ericm\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\player\\camra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\player\\camra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -28,15 +32,32 @@
               "RelativeDocumentMoniker": "Assets\\player\\player_movement.cs",
               "ToolTip": "C:\\Users\\ericm\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\player\\player_movement.cs",
               "RelativeToolTip": "Assets\\player\\player_movement.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAG4AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAmwG8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-03T23:32:40.023Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "mushroom.cs",
+              "DocumentMoniker": "C:\\Users\\ericm\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\start of Erbeio3d builtin rp\\mushrooms\\mushroom.cs",
+              "RelativeDocumentMoniker": "Assets\\start of Erbeio3d builtin rp\\mushrooms\\mushroom.cs",
+              "ToolTip": "C:\\Users\\ericm\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\start of Erbeio3d builtin rp\\mushrooms\\mushroom.cs",
+              "RelativeToolTip": "Assets\\start of Erbeio3d builtin rp\\mushrooms\\mushroom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T02:09:22.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "camra.cs",
               "DocumentMoniker": "C:\\Users\\ericm\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\player\\camra.cs",
               "RelativeDocumentMoniker": "Assets\\player\\camra.cs",
