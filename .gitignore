@@ -11,7 +11,7 @@
 
 Packages/MSTest*
 Packages/NUnit*
-Packages/com.unity.render-pipelines.universal\Runtime/2D
+Packages/com.unity.render-pipelines.universal/Runtime/2D
 
 # Unity3D generated meta files
 *.pidb.meta
