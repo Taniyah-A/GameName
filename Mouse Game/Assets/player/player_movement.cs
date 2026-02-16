@@ -68,6 +68,8 @@ public class PlayerController : MonoBehaviour
     private static readonly int IsJumpingHash = Animator.StringToHash("isJumping");
 
 
+    private Platform currentPlatform;
+
     private void Awake()
     {
         controller = GetComponent<CharacterController>();
@@ -85,13 +87,23 @@ public class PlayerController : MonoBehaviour
 
     private void Update() {
         isGrounded = controller.isGrounded;
+
+
+        if (!isGrounded) currentPlatform = null;
+
         if (isGrounded)
         {
             coyoteTimeCounter = coyoteTime;
             playerVelocity.y = -2f;
         }
-        else { 
+        else
+        {
             coyoteTimeCounter -= Time.deltaTime;
+        }
+
+        if (currentPlatform != null)
+        {
+            controller.Move(currentPlatform.GetDelta());
         }
 
         Move();
@@ -104,16 +116,20 @@ public class PlayerController : MonoBehaviour
 
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
+        // Mushroom logic
         if (hit.gameObject.CompareTag("Mushroom"))
         {
             Vector3 vect = hit.transform.up;
-
-
             playerVelocity = Vector3.zero;
             coyoteTimeCounter = 0f;
-
             externalForce = vect * bounceForce;
+        }
 
+        // Platform logic: Check if the thing we hit has the Platform script
+        Platform platform = hit.gameObject.GetComponent<Platform>();
+        if (platform != null)
+        {
+            currentPlatform = platform;
         }
     }
 
@@ -139,7 +155,7 @@ public class PlayerController : MonoBehaviour
             animator.SetBool(IsWalkingHash, false);
         }
         
-    }
+        }
 
     private void ApplyGravityAndJump()
     {

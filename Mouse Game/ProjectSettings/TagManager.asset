@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Mushroom
+  - Platform
   layers:
   - Default
   - TransparentFX
