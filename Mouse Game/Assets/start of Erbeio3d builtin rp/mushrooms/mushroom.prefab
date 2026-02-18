@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 273315158325444674}
   - component: {fileID: 8211494507004116457}
   - component: {fileID: 6204656048232144882}
+  - component: {fileID: 7093888059133049268}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Mushroom
@@ -34,6 +35,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2209286183265528041}
+  - {fileID: 5422995168203078453}
   m_Father: {fileID: 3812581001709370808}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6359726241689995689
@@ -141,6 +143,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!114 &7093888059133049268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2350005701858160859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c54686d3d0e810844bd6a001a7dc0e5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  animator: {fileID: 4699958312333335695}
 --- !u!1 &4960028326955331296
 GameObject:
   m_ObjectHideFlags: 0
@@ -264,6 +279,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3812581001709370808}
+  - component: {fileID: 4699958312333335695}
   m_Layer: 0
   m_Name: mushroom
   m_TagString: Untagged
@@ -285,9 +301,30 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8193262393148894733}
-  - {fileID: 5422995168203078453}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &4699958312333335695
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6349466396801952151}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 24d2f7695bfca0d45a606063114c4691, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7618556183336787072
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,11 +353,11 @@ Transform:
   m_GameObject: {fileID: 7618556183336787072}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.109, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.1, z: 0.15}
+  m_LocalPosition: {x: 0, y: -0.408, z: 0}
+  m_LocalScale: {x: 0.375, y: 0.4, z: 0.375}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3812581001709370808}
+  m_Father: {fileID: 8193262393148894733}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3928237796129188922
 MeshFilter:

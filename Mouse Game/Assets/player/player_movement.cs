@@ -43,6 +43,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float bounceForce = 15f; // Rename 'force' to 'bounceForce' for clarity
     [SerializeField] float bounceDecay = 4f;  // Higher number = shorter bounce
     private Vector3 externalForce; // This stores the current active bounce push
+    private Mushroom mushroom;
 
 
     [Header("Camera")]
@@ -123,6 +124,12 @@ public class PlayerController : MonoBehaviour
             playerVelocity = Vector3.zero;
             coyoteTimeCounter = 0f;
             externalForce = vect * bounceForce;
+
+            Mushroom mushroom = hit.gameObject.GetComponent<Mushroom>();
+            if (mushroom != null)
+            {
+                mushroom.PlayBounce(); // Call a public method on your mushroom
+            }
         }
 
         // Platform logic: Check if the thing we hit has the Platform script
