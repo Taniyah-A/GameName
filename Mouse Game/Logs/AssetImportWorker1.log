@@ -1,49 +1,49 @@
-Unity Editor version:    6000.3.3f1 (ef04196de0d6)
-Branch:                  6000.3/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 26.2 (Build 25C56)
-Darwin version:          25.2.0
-Architecture:            arm64
-Running under Rosetta:   NO
-Available memory:        24576 MB
-Date:                    2026-02-17T23:16:32Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-milagopinathan" at "2026-02-17T23:16:32.460658Z"
+Built from '6000.3/staging' branch; Version is '6000.3.3f1 (ef04196de0d6) revision 15664153'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'en' Physical Memory: 16087 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ericm" at "2026-02-18T17:57:54.2247135Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-02-18T17:57:54Z
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/6000.3.3f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-/Users/milagopinathan/Unity-Projects/GameName/Mouse Game
+C:/Users/ericm/Documents/GitHub/GameName/Mouse Game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54675
+52579
 -licensingIpc
-LicenseClient-milagopinathan
+LicenseClient-ericm
 -job-worker-count
-4
+7
 -background-job-worker-count
 8
 -gc-helper-count
 1
--name AssetImport
-Successfully changed project path to: /Users/milagopinathan/Unity-Projects/GameName/Mouse Game
-/Users/milagopinathan/Unity-Projects/GameName/Mouse Game
+-name
+AssetImport
+Successfully changed project path to: C:/Users/ericm/Documents/GitHub/GameName/Mouse Game
+C:/Users/ericm/Documents/GitHub/GameName/Mouse Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
     "memorysetup-temp-allocator-size-background-worker=32768"
     "memorysetup-temp-allocator-size-job-worker=262144"
     "memorysetup-temp-allocator-size-preload-manager=33554432"
-    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
-    "memorysetup-temp-allocator-size-audio-worker=65536"
-    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
     "memorysetup-bucket-allocator-block-size=33554432"
@@ -64,19 +64,14 @@ Successfully changed project path to: /Users/milagopinathan/Unity-Projects/GameN
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8468573248]  Target information:
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [32540]  Target information:
 
-Player connection [8468573248]  * "[IP] 192.168.10.120 [Port] 0 [Flags] 2 [Guid] 4227052393 [EditorId] 4227052393 [Version] 1048832 [Id] OSXEditor(0,Mila-MacBook.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [32540]  * "[IP] 192.168.86.197 [Port] 0 [Flags] 2 [Guid] 936033850 [EditorId] 936033850 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [8468573248] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8468573248] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 4
+Player connection [32540] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [32540] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -87,99 +82,96 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.03 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 3.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.3f1 (ef04196de0d6)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.3f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/milagopinathan/Unity-Projects/GameName/Mouse Game/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ericm/Documents/GitHub/GameName/Mouse Game/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
- preferred device: Apple M5 (high power)
-Metal devices available: 1
-0: Apple M5 (high power)
-Using device Apple M5 (high power)
-Initializing Metal device caps: Apple M5
-Mac GPU Family: 2
-Apple GPU Family: 9
-MSL Version: 3.0
-Has Float MSAA: 1
-Has Float Filtering: 1
-ReadWrite Texture Tier: 2
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2820)
+    Vendor:   NVIDIA
+    VRAM:     7948 MB
+    Driver:   32.0.15.6636
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.3f1/Unity.app/Contents/Resources/Scripting/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.3f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/6000.3.3f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/6000.3.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000373 seconds.
-- Loaded All Assemblies, in  0.376 seconds
-Native extension for OSXStandalone target not found
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001625 seconds.
+- Loaded All Assemblies, in  0.464 seconds
+Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.465 seconds
-Domain Reload Profiling: 841ms
-	BeginReloadAssembly (112ms)
+- Finished resetting the current domain, in  0.501 seconds
+Domain Reload Profiling: 961ms
+	BeginReloadAssembly (155ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (174ms)
-		LoadAssemblies (111ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (196ms)
+		LoadAssemblies (152ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (171ms)
-			TypeCache.Refresh (169ms)
-				TypeCache.ScanAssembly (152ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (191ms)
+				TypeCache.ScanAssembly (176ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (466ms)
+	FinalizeReload (502ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (414ms)
+		SetupLoadedEditorAssemblies (460ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (46ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (105ms)
-			ProcessInitializeOnLoadAttributes (184ms)
-			ProcessInitializeOnLoadMethodAttributes (75ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[CoreBusinessMetrics] Unexpected thread when updating session info.
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-[Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              291d3ac447f64984a9e82a3118df5d5c
-  Correlation Id:          c3f364a6aaf2e143edc1e90d67e42a7d
-  External correlation Id: 5683361269959678137
-  Machine Id:              FXEuT7hH6lLfC9qOCOWecbHIfNM=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-milagopinathan" (connect: 0.00s, validation: 0.00s, handshake: 1.92s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-milagopinathan-notifications" at "2026-02-17T23:16:34.378326Z"
-[Licensing::Module] Licensing Background thread has ended after 1.92s
-[Licensing::Module] Licensing is initialized (took 0.11s).
+  Session Id:              e977a02c0d7a4667ae2233ce41550d5d
+  Correlation Id:          474c8140e37d40eab6a8a9834452d557
+  External correlation Id: 233375352604657169
+  Machine Id:              fRno2ULVYRrZcz9laSqRvR4rHL4=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ericm" (connect: 0.00s, validation: 0.00s, handshake: 2.19s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ericm-notifications" at "2026-02-18T17:57:56.4179851Z"
+[Licensing::Module] Licensing Background thread has ended after 2.19s
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 2475310867858-UnityPersXXXX
+  Id: F4-X8S7-E8HX-HFXU-5ARU-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474645008784-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.740 seconds
+- Loaded All Assemblies, in  0.820 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -189,598 +181,505 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.615 seconds
-Domain Reload Profiling: 1355ms
-	BeginReloadAssembly (248ms)
+- Finished resetting the current domain, in  0.780 seconds
+Domain Reload Profiling: 1594ms
+	BeginReloadAssembly (179ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (35ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (38ms)
 	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (412ms)
-		LoadAssemblies (245ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (538ms)
+		LoadAssemblies (385ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (215ms)
-			TypeCache.Refresh (171ms)
-				TypeCache.ScanAssembly (153ms)
-			BuildScriptInfoCaches (33ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (615ms)
+		AnalyzeDomain (252ms)
+			TypeCache.Refresh (185ms)
+				TypeCache.ScanAssembly (170ms)
+			BuildScriptInfoCaches (53ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (780ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (486ms)
+		SetupLoadedEditorAssemblies (584ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (141ms)
-			ProcessInitializeOnLoadAttributes (292ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (360ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launching external process: /Applications/Unity/Hub/Editor/6000.3.3f1/Unity.app/Contents/Helpers/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6539 unused Assets / (3.3 MB). Loaded Objects now: 7338.
-Memory consumption went from 142.7 MB to 139.4 MB.
-Total: 7.868791 ms (FindLiveObjects: 0.601208 ms CreateObjectMapping: 0.226125 ms MarkObjects: 5.761292 ms  DeleteObjects: 1.279750 ms)
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6539 unused Assets / (4.3 MB). Loaded Objects now: 7357.
+Memory consumption went from 159.6 MB to 155.4 MB.
+Total: 8.819400 ms (FindLiveObjects: 0.658800 ms CreateObjectMapping: 0.556700 ms MarkObjects: 5.262000 ms  DeleteObjects: 2.340000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 120626.066930 seconds.
-  path: Assets/Erbeilo3D Built_in RP/Houses/Well.prefab
-  artifactKey: Guid(81b63fedba858aa40858efc886de5310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Erbeilo3D Built_in RP/Houses/Well.prefab using Guid(81b63fedba858aa40858efc886de5310) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6a97d4c241ee61aff2d117285c1a203') in 0.023809125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Erbeilo3D Built_in RP/Houses/ModulerHouse1.prefab
-  artifactKey: Guid(efc5ac20be0f47c47824ac9a32968d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Erbeilo3D Built_in RP/Houses/ModulerHouse1.prefab using Guid(efc5ac20be0f47c47824ac9a32968d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b61319cb6c98dce52b2fd9800217da15') in 0.429465167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1226
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/Erbeilo3D Built_in RP/Houses/Multi_modulerhouse1.prefab
-  artifactKey: Guid(85026ecc419269c47ba9d740a446aadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Erbeilo3D Built_in RP/Houses/Multi_modulerhouse1.prefab using Guid(85026ecc419269c47ba9d740a446aadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5eee12f1c22bce944bbb65b105abb95') in 0.155379792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1910
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Erbeilo3D Built_in RP/Houses/Bridge.prefab
-  artifactKey: Guid(1717a3229d548374cbf3d01bc239a6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Erbeilo3D Built_in RP/Houses/Bridge.prefab using Guid(1717a3229d548374cbf3d01bc239a6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f54a43ddac1049b7f063068a876a008c') in 0.026511833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 68
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Erbeilo3D Built_in RP/Houses/ModulerHouse3.prefab
-  artifactKey: Guid(31beba31fa125504a9fa796afb90ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Erbeilo3D Built_in RP/Houses/ModulerHouse3.prefab using Guid(31beba31fa125504a9fa796afb90ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f80428623069190041cf382df11a8f4') in 0.0301545 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 248
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/Erbeilo3D Built_in RP/Houses/Wall.prefab
-  artifactKey: Guid(d5b1c3784ec47014fbdaa7a7a9492341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Erbeilo3D Built_in RP/Houses/Wall.prefab using Guid(d5b1c3784ec47014fbdaa7a7a9492341) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c5d3d25f33a4406efdfff05739f9382') in 0.025441416 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 178
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.746784 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/RockyGround/RockyGround1.prefab
-  artifactKey: Guid(a6ec6f3d62287e84f93724ac77272b03) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/RockyGround/RockyGround1.prefab using Guid(a6ec6f3d62287e84f93724ac77272b03) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '1ddac1aea63122440ddcacb13df5460c') in 0.092170042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Rock/Texture/Rock_Low_._Normal.png
+  Time since last request: 419437.360266 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Rock/Texture/Rock_Low_._Normal.png
   artifactKey: Guid(afbd2757468da8e478bda64009d3717c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Rock/Texture/Rock_Low_._Normal.png using Guid(afbd2757468da8e478bda64009d3717c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8c91eb6daa515c276993036070ecd17a') in 0.039445708 seconds
+Start importing Assets/start of Erbeio3d builtin rp/Rock/Texture/Rock_Low_._Normal.png using Guid(afbd2757468da8e478bda64009d3717c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c9746cac8ba8fbba97efd03d82b8465') in 0.1504217 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Rock/Texture/Rock_Low_._Metallic.png
-  artifactKey: Guid(11faa48aea3111a4e9d3c9d484ed2017) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Rock/Texture/Rock_Low_._Metallic.png using Guid(11faa48aea3111a4e9d3c9d484ed2017) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2b3ec35a6718ba72f4ee390b718bfbbb') in 0.010926542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Ground/Model/Ground.fbx
-  artifactKey: Guid(121683e8126a58f4c89a0ada87f03ead) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Ground/Model/Ground.fbx using Guid(121683e8126a58f4c89a0ada87f03ead) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '80730b96ce496eb63659d96c63a3c40d') in 0.020236 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Erbeilo3D Built_in RP/terrainTexture/Stony Forest Ground/Stony Forest Ground_Normal.png
-  artifactKey: Guid(1ee1463b9aa3ed04ca14ebd3108fe119) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/terrainTexture/Stony Forest Ground/Stony Forest Ground_Normal.png using Guid(1ee1463b9aa3ed04ca14ebd3108fe119) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '716fbbb67a9598df136c17177054e389') in 0.015381709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Erbeilo3D Built_in RP/terrainTexture/Forest Roots/New Material_MaskMap.png
-  artifactKey: Guid(d1e7d07a71140e24c87328403d8f012a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/terrainTexture/Forest Roots/New Material_MaskMap.png using Guid(d1e7d07a71140e24c87328403d8f012a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ca3f86917444b1562963a3f4d714b82') in 0.006750458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Ground/Texture/Ground1_Low_0_Metallic.png
-  artifactKey: Guid(41b729f6cf741a54e8c21d8d5f13fced) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Ground/Texture/Ground1_Low_0_Metallic.png using Guid(41b729f6cf741a54e8c21d8d5f13fced) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ffba382810e66d5444cb457e5df7cab') in 0.012715833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Lamp/Texture/Stone_Lantern_Low_._BaseMap.png
-  artifactKey: Guid(b1b68fc0622207f4d9f4075179ee1efa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Lamp/Texture/Stone_Lantern_Low_._BaseMap.png using Guid(b1b68fc0622207f4d9f4075179ee1efa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7d6ed7dcd3eb21f1719fabd184bb38aa') in 0.010715791 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/start of Erbeio3d builtin rp/Plant/Model/Ivy_A2.fbx
-  artifactKey: Guid(fdedcd65948938940b5925d609e0db26) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/start of Erbeio3d builtin rp/Plant/Model/Ivy_A2.fbx using Guid(fdedcd65948938940b5925d609e0db26) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3e89a9825cda2efb45282f143a309e40') in 0.008335542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Ground/Texture/Ground1_Low_1_BaseColor.png
-  artifactKey: Guid(53d18e3772f703a408ab0c0f649fafed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Ground/Texture/Ground1_Low_1_BaseColor.png using Guid(53d18e3772f703a408ab0c0f649fafed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cbc37549c017df61657f3677de61805e') in 0.010379834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Rock/Material/Cliff1__.mat
-  artifactKey: Guid(fc8fa4553d9ad69468f04238c9df6766) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Rock/Material/Cliff1__.mat using Guid(fc8fa4553d9ad69468f04238c9df6766) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e5721322c2c9412a596d16e75ca479d4') in 0.027168459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
+  Time since last request: 0.000019 seconds.
   path: Assets/start of Erbeio3d builtin rp/Plant/Prefab/Billberry_A0.prefab
   artifactKey: Guid(d402d95a542d6b448b877606de1846e7) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/start of Erbeio3d builtin rp/Plant/Prefab/Billberry_A0.prefab using Guid(d402d95a542d6b448b877606de1846e7) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '6e1d2db28c2eba92783caacef393ce25') in 0.012122208 seconds
+Start importing Assets/start of Erbeio3d builtin rp/Plant/Prefab/Billberry_A0.prefab using Guid(d402d95a542d6b448b877606de1846e7) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '83770817f6917533f68c0a5837fe1861') in 0.0870068 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Stair/Texture/Rocky_Stair_._Normal.png
-  artifactKey: Guid(f6fe4695d75bd6943b38b0415634e32e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Stair/Texture/Rocky_Stair_._Normal.png using Guid(f6fe4695d75bd6943b38b0415634e32e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b0f7c165c344472376d6170ed2651ad') in 0.017461166 seconds
+  Time since last request: 0.000030 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Rock/Texture/Rock_Low_._Metallic.png
+  artifactKey: Guid(11faa48aea3111a4e9d3c9d484ed2017) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Rock/Texture/Rock_Low_._Metallic.png using Guid(11faa48aea3111a4e9d3c9d484ed2017) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ebd7556159fa2cf72f89c6855a1c3961') in 0.0317945 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/start of Erbeio3d builtin rp/Plant/Model/Billberry_A0.fbx
-  artifactKey: Guid(8836562362dfc9f4c9979df75672752f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/start of Erbeio3d builtin rp/Plant/Model/Billberry_A0.fbx using Guid(8836562362dfc9f4c9979df75672752f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1c8de493ec40505f0cf145110695b4d') in 0.005106583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/start of Erbeio3d builtin rp/Plant/Prefab/Billberry_A7.prefab
-  artifactKey: Guid(b14b2f3ee22294f4d831c41d8bcf8dbc) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/start of Erbeio3d builtin rp/Plant/Prefab/Billberry_A7.prefab using Guid(b14b2f3ee22294f4d831c41d8bcf8dbc) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '111243635cc34fec4e675889a3f29eea') in 0.009846875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Ground/Texture/Ground1_Low_0_BaseMap.png
-  artifactKey: Guid(4a11fa5f6c031724693c71eac7c7e5f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Ground/Texture/Ground1_Low_0_BaseMap.png using Guid(4a11fa5f6c031724693c71eac7c7e5f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '022468846b5adc562359c3d95adac459') in 0.013841459 seconds
+  Time since last request: 0.000015 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Ground/Texture/Ground1_Low_Cliff_Metallic.png
+  artifactKey: Guid(18ab2b1279ba1fb4eb937368dc59fcc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Ground/Texture/Ground1_Low_Cliff_Metallic.png using Guid(18ab2b1279ba1fb4eb937368dc59fcc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a23da30a932aed5e2e27339c85be8f0f') in 0.0272802 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Lamp/Texture/Lamp2_2_Normal.png
-  artifactKey: Guid(dd35dde20cb1a724fa35ae24019fc159) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Lamp/Texture/Lamp2_2_Normal.png using Guid(dd35dde20cb1a724fa35ae24019fc159) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eacb0e41ed0b51e7b63618f4f27b64f9') in 0.012699916 seconds
+  Time since last request: 0.000014 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Ground/Texture/Ground1_Low_Cliff_Normal.png
+  artifactKey: Guid(917918c306b959d4eacaf43483b458b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Ground/Texture/Ground1_Low_Cliff_Normal.png using Guid(917918c306b959d4eacaf43483b458b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f35a56a59a6c503c0e97c3a3d15fac3f') in 0.042121 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/start of Erbeio3d builtin rp/Plant/Model/Ivy_A6.fbx
-  artifactKey: Guid(ae7b3e5314bf8e447977bca5550d3eee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/start of Erbeio3d builtin rp/Plant/Model/Ivy_A6.fbx using Guid(ae7b3e5314bf8e447977bca5550d3eee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d71ad5ccd5096508ae69c00da6c7bbb') in 0.006794417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Rock/Material/ROCK_SMALL.mat
-  artifactKey: Guid(a50a7757d2e29fd4f9df5f0b96805df1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Rock/Material/ROCK_SMALL.mat using Guid(a50a7757d2e29fd4f9df5f0b96805df1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '10696d23040fb3032e181092292a216d') in 0.021270416 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Stair/Prefab/Stair_WithBeams.prefab
-  artifactKey: Guid(5bd753958555a4f42a15c569a937a38c) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Stair/Prefab/Stair_WithBeams.prefab using Guid(5bd753958555a4f42a15c569a937a38c) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '5ab41e37fec238c773375632df09a9c3') in 0.014885792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Rock/Model/rock1.fbx
-  artifactKey: Guid(64db94aa9c60dc24faf1c6b6d67ceda1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Rock/Model/rock1.fbx using Guid(64db94aa9c60dc24faf1c6b6d67ceda1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fee727f8969239cfc4bb320a0725228b') in 0.006353416 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Erbeilo3D Built_in RP/terrainTexture/Icelandic Sand And Rocks/Icelandic Sand And Rocks_Normal.png
-  artifactKey: Guid(d2f4e9de0ccffef4fb6d26fc58009b12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/terrainTexture/Icelandic Sand And Rocks/Icelandic Sand And Rocks_Normal.png using Guid(d2f4e9de0ccffef4fb6d26fc58009b12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8c268ffdb687ee619cc735016763c037') in 0.015871791 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Ground/Material/Ground_1.mat
-  artifactKey: Guid(0fc722fb70cd4eb40a1bf04b7eccab9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Ground/Material/Ground_1.mat using Guid(0fc722fb70cd4eb40a1bf04b7eccab9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2375b0d0d71b9d3fe08ccf565cf84473') in 0.022796875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Ground/Material/Cliff.mat
-  artifactKey: Guid(6eea3685f3d7b6341b9d4339b5b36413) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Ground/Material/Cliff.mat using Guid(6eea3685f3d7b6341b9d4339b5b36413) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '16edcf7f70cf45023a61571550c74a39') in 0.02121 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/start of Erbeio3d builtin rp/Plant/Prefab/Billberry_A5.prefab
-  artifactKey: Guid(f67fe34a5333ade4ca7cd38557863730) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/start of Erbeio3d builtin rp/Plant/Prefab/Billberry_A5.prefab using Guid(f67fe34a5333ade4ca7cd38557863730) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '1946fb7ce92e1e49c1ed8da0cd360a1a') in 0.009826542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Rock/Material/Cliff_Sign.mat
-  artifactKey: Guid(c2dec7d363b5b904da44e7ed2496d1bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Rock/Material/Cliff_Sign.mat using Guid(c2dec7d363b5b904da44e7ed2496d1bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9e789e524dbd9a80e5e0b9add1f8f2b8') in 0.023921791 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Lamp/Prefab/StoneLamp.prefab
-  artifactKey: Guid(e300fb986f27eec4bb410e60357727e8) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Lamp/Prefab/StoneLamp.prefab using Guid(e300fb986f27eec4bb410e60357727e8) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: 'ff71d6d4c8169f71afd91cf82da95502') in 0.014817041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Ground/Prefab/Ground1.prefab
-  artifactKey: Guid(b4a97abdd22a8e04881b285a4c7dad6d) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Ground/Prefab/Ground1.prefab using Guid(b4a97abdd22a8e04881b285a4c7dad6d) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '4ff28e47ddd9a533d9582d156fb1da4c') in 0.009950417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Lamp/Prefab/ChinessLamp.prefab
-  artifactKey: Guid(fe5826951d4e9f94e8bd7886829870fc) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Lamp/Prefab/ChinessLamp.prefab using Guid(fe5826951d4e9f94e8bd7886829870fc) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '138d4679c4d743f2470b007e0e07905d') in 0.013070375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Ground/Prefab
-  artifactKey: Guid(070ec6a439cd2cb4da6f9fe0ec0dd91c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Ground/Prefab using Guid(070ec6a439cd2cb4da6f9fe0ec0dd91c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '90e2f2f20b16b8bcf5cdcfb8cfaf61c4') in 0.002044833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Lamp/Prefab/WoodLamp.prefab
-  artifactKey: Guid(f41b3befbce683f428b1eb7877c6f630) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Lamp/Prefab/WoodLamp.prefab using Guid(f41b3befbce683f428b1eb7877c6f630) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '6b39139bffe5d5bc3dd452f26659ade8') in 0.010798125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Erbeilo3D Built_in RP/terrainTexture/Forest Roots
-  artifactKey: Guid(d202820ee8f462542bf1a600cf652dee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/terrainTexture/Forest Roots using Guid(d202820ee8f462542bf1a600cf652dee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '66f9555c08e7d42cd6f85b0b0a01ae72') in 0.0015945 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/RockyGround/Mossy Creek Stones/Mossy Creek Stones_Normal.png
-  artifactKey: Guid(047947e662a32ed4cbf80a8f6f14093f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/RockyGround/Mossy Creek Stones/Mossy Creek Stones_Normal.png using Guid(047947e662a32ed4cbf80a8f6f14093f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '88436f10395811b85128136675ded39a') in 0.017619708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Erbeilo3D Built_in RP/terrainTexture/Stony Forest Ground/New Material_MaskMap.png
-  artifactKey: Guid(e359eca26fd11684cb17fa6fce2419b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/terrainTexture/Stony Forest Ground/New Material_MaskMap.png using Guid(e359eca26fd11684cb17fa6fce2419b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3a7fbf8b3812351471397302828de53b') in 0.012765708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/start of Erbeio3d builtin rp/Plant/Model/Billberry_A4.fbx
-  artifactKey: Guid(70877aedff8850d4cb46cf63d8ce8e04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/start of Erbeio3d builtin rp/Plant/Model/Billberry_A4.fbx using Guid(70877aedff8850d4cb46cf63d8ce8e04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a7c796d223e346aee66d77131ceb348') in 0.010831958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Lamp/Texture/Lamp1_1_BaseMap.png
-  artifactKey: Guid(88c0a77e3269906409412ec9725cc958) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Lamp/Texture/Lamp1_1_BaseMap.png using Guid(88c0a77e3269906409412ec9725cc958) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b862b381c30183f7b7ca6a57e9441c3a') in 0.011197875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Lamp/Model
-  artifactKey: Guid(2eecf09a558f0f847b5614a89e747adf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Lamp/Model using Guid(2eecf09a558f0f847b5614a89e747adf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2ba3e35626152142259826c58135b7c9') in 0.00166125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/start of Erbeio3d builtin rp/Plant/Prefab/Ivy_A7.prefab
-  artifactKey: Guid(0ac83e8099f8f1247b8ac6c7dfdb0489) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/start of Erbeio3d builtin rp/Plant/Prefab/Ivy_A7.prefab using Guid(0ac83e8099f8f1247b8ac6c7dfdb0489) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '9f17a5b7759f74edacf77e1d8fe3742a') in 0.008841667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Rock/Texture/Cliff1_._Metallic.png
-  artifactKey: Guid(c05757e257f5fe44fa5dc412d927367d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Rock/Texture/Cliff1_._Metallic.png using Guid(c05757e257f5fe44fa5dc412d927367d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '69467ebba2dfc5cc0422ea6ea0e69c88') in 0.014080208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Lamp/Material/Stone_Lantern.mat
-  artifactKey: Guid(311d622577fde7040bbf2fd54bb01820) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Lamp/Material/Stone_Lantern.mat using Guid(311d622577fde7040bbf2fd54bb01820) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5cf195971d8c45c13e4c354e9ad45125') in 0.021767417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Rock/Texture/rock1_Low_._Normal.png
-  artifactKey: Guid(75f827f6ff0345e4bbf5a4f197c8b7ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Rock/Texture/rock1_Low_._Normal.png using Guid(75f827f6ff0345e4bbf5a4f197c8b7ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2d46414029b21de65bdaebda11144a10') in 0.0193905 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Stair/Material/Rocky-StairMa.mat
-  artifactKey: Guid(e60397ea618f5fe4ba96d00725495a5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Stair/Material/Rocky-StairMa.mat using Guid(e60397ea618f5fe4ba96d00725495a5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1f2c4e216cc6dc50870dfec49b9991a') in 0.022977292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Rock/Prefab/Rock.prefab
-  artifactKey: Guid(6b436b3c3e7a0fd4b8c81e69c3e841aa) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Rock/Prefab/Rock.prefab using Guid(6b436b3c3e7a0fd4b8c81e69c3e841aa) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '4283bd6ecd2350313f1cf5de3d1c1682') in 0.012571459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/start of Erbeio3d builtin rp/Plant/Texture/Ferns_Albedo.tif
-  artifactKey: Guid(2b119d7024d523941978270a3c642141) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/start of Erbeio3d builtin rp/Plant/Texture/Ferns_Albedo.tif using Guid(2b119d7024d523941978270a3c642141) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '36b5c32136685b6d0e85006b5cd7603d') in 0.005844 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Stair/Prefab/Stair_14P.prefab
-  artifactKey: Guid(ddc9408693b7dae4289453456054d96c) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Stair/Prefab/Stair_14P.prefab using Guid(ddc9408693b7dae4289453456054d96c) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '07c7a21be96980555ff6903e035c5420') in 0.009382625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 68
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/start of Erbeio3d builtin rp/Plant/Texture/Ferns_Normal.tif
-  artifactKey: Guid(27b0882b1c046e647b7f5d130d04e07a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/start of Erbeio3d builtin rp/Plant/Texture/Ferns_Normal.tif using Guid(27b0882b1c046e647b7f5d130d04e07a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '47d6813740fcbdf0a874528b3a568ac7') in 0.005841667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/start of Erbeio3d builtin rp/Plant/Prefab/Billberry_A2.prefab
-  artifactKey: Guid(db787f318db55c44697b65f6304c94ef) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/start of Erbeio3d builtin rp/Plant/Prefab/Billberry_A2.prefab using Guid(db787f318db55c44697b65f6304c94ef) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: 'e2c8b68a0d381a817a483e8ad7b97b38') in 0.013465208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Ground/Material
-  artifactKey: Guid(5688217e62fc61841b3248a16d8d785b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Ground/Material using Guid(5688217e62fc61841b3248a16d8d785b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a329dd7c326332d904997af971a1ec45') in 0.002211792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Lamp/Texture/Lamp1_1_Metallic.png
-  artifactKey: Guid(c4ccc7dd2e7643b458e1a074aaec2d90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Lamp/Texture/Lamp1_1_Metallic.png using Guid(c4ccc7dd2e7643b458e1a074aaec2d90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '715a310ccaadb5ad3d082279f5fbff5d') in 0.010010625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/start of Erbeio3d builtin rp/Plant/Matreial/Bilberry.mat
-  artifactKey: Guid(ae88c762b0181f548b6359e1d7169092) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/start of Erbeio3d builtin rp/Plant/Matreial/Bilberry.mat using Guid(ae88c762b0181f548b6359e1d7169092) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ca2a4bfe08f1b1e48e688c20ee03eef5') in 0.022819041 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Rock/Material/Rock_Low_._Metallic.mat
+  artifactKey: Guid(9f77bb8b648c0d244b4356b1cfe21983) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Rock/Material/Rock_Low_._Metallic.mat using Guid(9f77bb8b648c0d244b4356b1cfe21983) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '29e67eb3fbbe76d982ddc72d7eef5734') in 0.0777948 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Erbeilo3D Built_in RP/terrainTexture/Stony Forest Ground/Stony Forest Ground_Metalness.png
-  artifactKey: Guid(1bf1ccd6d65101c4f99254ac24b8c1e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/terrainTexture/Stony Forest Ground/Stony Forest Ground_Metalness.png using Guid(1bf1ccd6d65101c4f99254ac24b8c1e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1dbc68c3dc2d5c070fab785f8b3be060') in 0.011369208 seconds
+  Time since last request: 0.000027 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Plant/Prefab/Fern_A0.prefab
+  artifactKey: Guid(f79a2b0b9b318014f92561e5ca416e45) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/start of Erbeio3d builtin rp/Plant/Prefab/Fern_A0.prefab using Guid(f79a2b0b9b318014f92561e5ca416e45) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '8f75aa233c568c0a386edd1a2a7ad3c7') in 0.0511818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Lamp/Texture/Stone_Lantern_Low_._BaseMap.png
+  artifactKey: Guid(b1b68fc0622207f4d9f4075179ee1efa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Lamp/Texture/Stone_Lantern_Low_._BaseMap.png using Guid(b1b68fc0622207f4d9f4075179ee1efa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f0f27dc752dd9727194959a6ea4874aa') in 0.0240652 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Rock
-  artifactKey: Guid(aff3e47d364588743a8b9a705a1de87b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Rock using Guid(aff3e47d364588743a8b9a705a1de87b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '33f43baf100292820d2259505100eddb') in 0.001759125 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Plant/Model/Ivy_A2.fbx
+  artifactKey: Guid(fdedcd65948938940b5925d609e0db26) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Plant/Model/Ivy_A2.fbx using Guid(fdedcd65948938940b5925d609e0db26) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '513a521a7dfacb9765211fe056771a5e') in 0.0412206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Ground/Texture/Ground_Low_1_BaseColor.png
+  artifactKey: Guid(f3b262b76647834469bcf745bc14ef80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Ground/Texture/Ground_Low_1_BaseColor.png using Guid(f3b262b76647834469bcf745bc14ef80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a02cca55b26055eee0f89675a2226db') in 0.0245361 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Ground/Texture/Ground1_Low_0_Normal.png
-  artifactKey: Guid(0b2cda7f29815ce408366d7fa38e466f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Ground/Texture/Ground1_Low_0_Normal.png using Guid(0b2cda7f29815ce408366d7fa38e466f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e3e5ab7ef96bd8c220b0433425fdbdc7') in 0.0168205 seconds
+  Time since last request: 0.000027 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Rock/Model/Cliff1_..fbx
+  artifactKey: Guid(cfe4644fc9dcac048b5a85faaf972d05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Rock/Model/Cliff1_..fbx using Guid(cfe4644fc9dcac048b5a85faaf972d05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d55da41d539816c066ef8f32e1c8c95') in 0.0360024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Ground/Texture/Ground1_Low_1_BaseColor.png
+  artifactKey: Guid(53d18e3772f703a408ab0c0f649fafed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Ground/Texture/Ground1_Low_1_BaseColor.png using Guid(53d18e3772f703a408ab0c0f649fafed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fb306ed0bcf303daa4d9e8a9736b2a2b') in 0.028201 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Erbeilo3D Built_in RP/terrainTexture/Terrainlayer
-  artifactKey: Guid(0c92c92c3dcb8ce4198c3b41108c5fde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/terrainTexture/Terrainlayer using Guid(0c92c92c3dcb8ce4198c3b41108c5fde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1b78d6619bcd69cdc92354b548ff550') in 0.001629041 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Lamp/Prefab/Stone_Lantern_Mossy.prefab
+  artifactKey: Guid(6adbaffbfac4ffe41a989776b40ea7af) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/start of Erbeio3d builtin rp/Lamp/Prefab/Stone_Lantern_Mossy.prefab using Guid(6adbaffbfac4ffe41a989776b40ea7af) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '60d8d4ea3aefdabd795f86a0da0fc6e9') in 0.0473567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Plant/Model/Ivy_A1.fbx
+  artifactKey: Guid(191abaf67809f0e4fbdada5c2fdf7b17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Plant/Model/Ivy_A1.fbx using Guid(191abaf67809f0e4fbdada5c2fdf7b17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd073c4a2f78981a4b467f0c6291adfa4') in 0.0249193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Rock/Prefab/rock_small_Low.prefab
+  artifactKey: Guid(eeefc39db15a10e41b6fb5f62e525ef2) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/start of Erbeio3d builtin rp/Rock/Prefab/rock_small_Low.prefab using Guid(eeefc39db15a10e41b6fb5f62e525ef2) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '2dc43ed3879df8de6a2bfaf3b7e22fb9') in 0.0209078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Lamp/Material
+  artifactKey: Guid(567283ccbce0ad648a9176c3307b027d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Lamp/Material using Guid(567283ccbce0ad648a9176c3307b027d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77efbe9315632747cadcbf5d73ead82a') in 0.0226107 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Erbeilo3D Built_in RP/terrainTexture/Fresh Wild Grass _ Rock/Fresh Wild Grass _ Rock_Albedo.png
-  artifactKey: Guid(94a3364b13c2adf4faf644a5d0b07487) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/terrainTexture/Fresh Wild Grass _ Rock/Fresh Wild Grass _ Rock_Albedo.png using Guid(94a3364b13c2adf4faf644a5d0b07487) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '98714a2a27217fc095e384a7d8cf1222') in 0.010522417 seconds
+  Time since last request: 0.000028 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Plant/Prefab/Billberry_A5.prefab
+  artifactKey: Guid(f67fe34a5333ade4ca7cd38557863730) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/start of Erbeio3d builtin rp/Plant/Prefab/Billberry_A5.prefab using Guid(f67fe34a5333ade4ca7cd38557863730) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '24a11a21a8a4736c7d05c1d23f9efacd') in 0.0445664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Plant/Model/Ivy_A3.fbx
+  artifactKey: Guid(d15631793b0eae146b5b9e5b979768d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Plant/Model/Ivy_A3.fbx using Guid(d15631793b0eae146b5b9e5b979768d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '806811414d86a969ee78ad831db0d7d8') in 0.0267791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Lamp/Prefab/StandLamp 1.prefab
+  artifactKey: Guid(e9fec99a8226bf84bb51e54327532882) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/start of Erbeio3d builtin rp/Lamp/Prefab/StandLamp 1.prefab using Guid(e9fec99a8226bf84bb51e54327532882) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: 'dc8603032dff8bd0e74b3f3db7dfbbdb') in 0.0276666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Lamp/Model/Lamps.fbx
+  artifactKey: Guid(5badea8ef4434c94f88f643a3c7bd49a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Lamp/Model/Lamps.fbx using Guid(5badea8ef4434c94f88f643a3c7bd49a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0b4c8ff6e0489b8e23cb7e23198a6a3') in 0.0273007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Lamp/Prefab/WoodLamp.prefab
+  artifactKey: Guid(f41b3befbce683f428b1eb7877c6f630) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/start of Erbeio3d builtin rp/Lamp/Prefab/WoodLamp.prefab using Guid(f41b3befbce683f428b1eb7877c6f630) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: 'd28cc69362d224d2eca32b1c412336d5') in 0.0239105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Lamp/Texture/Lamp2_2_Metallic.png
+  artifactKey: Guid(1b0ae0a83d0954641ba4d442560907f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Lamp/Texture/Lamp2_2_Metallic.png using Guid(1b0ae0a83d0954641ba4d442560907f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f17b085930bd16fb97222fa38b59d7e7') in 0.0246452 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Lamp/Prefab/StandLamp.prefab
-  artifactKey: Guid(6417886a4d671c746b4353b528b31673) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Lamp/Prefab/StandLamp.prefab using Guid(6417886a4d671c746b4353b528b31673) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: 'ab2adb7827c1bd775cceed565a5cfd99') in 0.009594542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+  Time since last request: 0.000014 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Ground/Prefab/Ground1_1.prefab
+  artifactKey: Guid(45ff5705ed851984dac2708aeba5c933) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/start of Erbeio3d builtin rp/Ground/Prefab/Ground1_1.prefab using Guid(45ff5705ed851984dac2708aeba5c933) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '215afc0568ab6f4abb5b1353514e6108') in 0.0270406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Ground/Texture/Ground_Low_0_Normal.png
-  artifactKey: Guid(36084d73b979e514dabd29bbdf51ab82) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Ground/Texture/Ground_Low_0_Normal.png using Guid(36084d73b979e514dabd29bbdf51ab82) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b2ba3b9b55f5e50343feb7f7789e1353') in 0.016423875 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/start of Erbeio3d builtin rp/mushrooms/mushroom.cs
+  artifactKey: Guid(c54686d3d0e810844bd6a001a7dc0e5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/mushrooms/mushroom.cs using Guid(c54686d3d0e810844bd6a001a7dc0e5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e94b9612072039ededa4d890199ff6bb') in 0.0190405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Stair/Texture/Stair_Stairs_material_Normal.png
+  artifactKey: Guid(6fb03513d79ff3b4889a00dbbbd3d3ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Stair/Texture/Stair_Stairs_material_Normal.png using Guid(6fb03513d79ff3b4889a00dbbbd3d3ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0adc8b2f6e6659ce4964ee9cabd4f534') in 0.0333239 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.744537 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Ground/Prefab/Ground1.prefab
-  artifactKey: Guid(b4a97abdd22a8e04881b285a4c7dad6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Ground/Prefab/Ground1.prefab using Guid(b4a97abdd22a8e04881b285a4c7dad6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7070c71ed252bb24127236881b6822c') in 0.044385292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+  Time since last request: 0.000012 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Rock/Texture/Cliff_Low_2_Normal.png
+  artifactKey: Guid(f0a9fc10dccde824cb9bfda74cf867d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Rock/Texture/Cliff_Low_2_Normal.png using Guid(f0a9fc10dccde824cb9bfda74cf867d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1376528948b6e9db0f0c846d58e57841') in 0.0351551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.038066 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Ground/Material/Ground1_1.mat
-  artifactKey: Guid(790a1255ac612c84d9cfa568f7fa478d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Ground/Material/Ground1_1.mat using Guid(790a1255ac612c84d9cfa568f7fa478d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58a5154db8384ee98bd79c7b3f31a257') in 0.04900375 seconds
+  Time since last request: 0.000086 seconds.
+  path: Assets/start of Erbeio3d builtin rp/RockyGround/Mossy Creek Stones/Mossy Creek Stones_AO.png
+  artifactKey: Guid(4ef210076dc9554479646947204576a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/RockyGround/Mossy Creek Stones/Mossy Creek Stones_AO.png using Guid(4ef210076dc9554479646947204576a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '817fb19a134d3e7e2aee018ceb16c9de') in 0.0261259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Plant/Matreial/KurdishIvy_BillBoard.mat
+  artifactKey: Guid(ae2fe65da9c8d484eb01d8297ac82b9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Plant/Matreial/KurdishIvy_BillBoard.mat using Guid(ae2fe65da9c8d484eb01d8297ac82b9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '828ff96d24037bd12649ceab9026bd3d') in 0.0726439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Lamp/Material/Lamp.mat
+  artifactKey: Guid(c76426ce9b654e24b942056b0f62f4a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Lamp/Material/Lamp.mat using Guid(c76426ce9b654e24b942056b0f62f4a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2f7f833d963e3667ac7c24561f6e0fa0') in 0.0416973 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.669526 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Ground/Texture/Ground1_Low_0_Normal.png
-  artifactKey: Guid(0b2cda7f29815ce408366d7fa38e466f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Ground/Texture/Ground1_Low_0_Normal.png using Guid(0b2cda7f29815ce408366d7fa38e466f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d7c2af48b9c2e6beba14555130c4051') in 0.0368865 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000037 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Stair/Prefab/Stair_WithBeams.prefab
+  artifactKey: Guid(5bd753958555a4f42a15c569a937a38c) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/start of Erbeio3d builtin rp/Stair/Prefab/Stair_WithBeams.prefab using Guid(5bd753958555a4f42a15c569a937a38c) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '5185cfb5250cb0f9cd68799391c0512a') in 0.036985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Ground/Texture/Ground_Low_0_Metallic.png
-  artifactKey: Guid(3a11c315a74da6e4e820e8860382c93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Ground/Texture/Ground_Low_0_Metallic.png using Guid(3a11c315a74da6e4e820e8860382c93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d285a3f44257aa51accd78a3027dcf1') in 0.013751917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000021 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Rock/Prefab
+  artifactKey: Guid(2865124056fc93e4fb8742b2fecd6934) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Rock/Prefab using Guid(2865124056fc93e4fb8742b2fecd6934) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8deace6baaf1ca38179637957cdd04f4') in 0.0208175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Erbeilo3D Built_in RP/3D Model/Ground/Texture/Ground_Low_0_BaseMap.png
-  artifactKey: Guid(f4ae12a5ced327e40be48f2faaab7442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Erbeilo3D Built_in RP/3D Model/Ground/Texture/Ground_Low_0_BaseMap.png using Guid(f4ae12a5ced327e40be48f2faaab7442) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8704baf930b09ad49e66ab32554cf96b') in 0.013761583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000017 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Plant/Prefab/Fern_A2.prefab
+  artifactKey: Guid(d3445479b7d64a846b223b74ef922864) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/start of Erbeio3d builtin rp/Plant/Prefab/Fern_A2.prefab using Guid(d3445479b7d64a846b223b74ef922864) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '99984607b040729c0a8b61fb2f4f2bef') in 0.0392167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Stair
+  artifactKey: Guid(e5f49a62c52037246bc3d8b444c0256d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Stair using Guid(e5f49a62c52037246bc3d8b444c0256d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d1338ed4525590124a6f0010fcf8c9b') in 0.0157577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Ground/Texture/Ground1_Low_1_Normal.png
+  artifactKey: Guid(a03aa97571ec1ec4c953b73ff5c41523) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Ground/Texture/Ground1_Low_1_Normal.png using Guid(a03aa97571ec1ec4c953b73ff5c41523) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3b2c6aa94ef93e1b17d7ca9190d3ff03') in 0.0363047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Plant/Model/Ivy_A5.fbx
+  artifactKey: Guid(c4bef47a97a59c44a806904275b5dd8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Plant/Model/Ivy_A5.fbx using Guid(c4bef47a97a59c44a806904275b5dd8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ea5fcc4d6230cb2cdb4d5484df17af24') in 0.0265269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Ground/Prefab/Cliff.prefab
+  artifactKey: Guid(75209a1fb34cb9642bc76fa1e9c2c8fa) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/start of Erbeio3d builtin rp/Ground/Prefab/Cliff.prefab using Guid(75209a1fb34cb9642bc76fa1e9c2c8fa) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: 'a1c6dbec97933ab5b162dba9d03ac9b7') in 0.0235572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Plant/Model/Billberry_A5.fbx
+  artifactKey: Guid(71158561341494c4c85430f2682ca266) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Plant/Model/Billberry_A5.fbx using Guid(71158561341494c4c85430f2682ca266) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cdbbc517551e0f13b8348250f72a6dda') in 0.0208097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Ground/Material/Cliff.mat
+  artifactKey: Guid(6eea3685f3d7b6341b9d4339b5b36413) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Ground/Material/Cliff.mat using Guid(6eea3685f3d7b6341b9d4339b5b36413) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c93f8d3fd00d18dd21902b19d11f3f4f') in 0.0434797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Plant/Prefab/Ivy_A2.prefab
+  artifactKey: Guid(74831c19287e2bf40aae5e94c29d4b19) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/start of Erbeio3d builtin rp/Plant/Prefab/Ivy_A2.prefab using Guid(74831c19287e2bf40aae5e94c29d4b19) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '948eac89c1415fdde80ba8df7adc5181') in 0.0575462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Stair/Prefab/Stair_14P.prefab
+  artifactKey: Guid(ddc9408693b7dae4289453456054d96c) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/start of Erbeio3d builtin rp/Stair/Prefab/Stair_14P.prefab using Guid(ddc9408693b7dae4289453456054d96c) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '95de687231d342eee5044d725e03af7c') in 0.0235918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 68
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/player/player_movement.cs
+  artifactKey: Guid(82fdacc75436b4042aed619792e4ab11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/player/player_movement.cs using Guid(82fdacc75436b4042aed619792e4ab11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3a0494367dddaff160eb3cf2d9c9f3a6') in 0.0222188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/start of Erbeio3d builtin rp/mushrooms/mushroom.controller
+  artifactKey: Guid(24d2f7695bfca0d45a606063114c4691) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/mushrooms/mushroom.controller using Guid(24d2f7695bfca0d45a606063114c4691) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9e474a6da58255ee14ba403ac326b285') in 0.0335473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Plant/Model/Billberry_A6.fbx
+  artifactKey: Guid(f22616b8253d33e40a6561ff61be06b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Plant/Model/Billberry_A6.fbx using Guid(f22616b8253d33e40a6561ff61be06b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '278dcb69feac34779333806ad2b318fd') in 0.0244166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Lamp/Texture
+  artifactKey: Guid(a35cfb50330165145bba33cbeaaa36b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Lamp/Texture using Guid(a35cfb50330165145bba33cbeaaa36b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '39be596187bb1e5ba153f92eaf57ca19') in 0.0194736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Rock/Texture/Cliff_Low_1_Normal.png
+  artifactKey: Guid(49698568c5a7c994988eeb53ba90b345) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Rock/Texture/Cliff_Low_1_Normal.png using Guid(49698568c5a7c994988eeb53ba90b345) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '31e6ae8433f9910b40630622e44e5f48') in 0.0338984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Plant/Prefab/Fern_A1.prefab
+  artifactKey: Guid(77bb79bf4719c6045a945465862f5117) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/start of Erbeio3d builtin rp/Plant/Prefab/Fern_A1.prefab using Guid(77bb79bf4719c6045a945465862f5117) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: 'f4d6f7506655bf8160f9be32c339211c') in 0.0387746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Ground/Material/Ground1_0.mat
+  artifactKey: Guid(4929fffb2c0bd364b9a8bde1468602ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Ground/Material/Ground1_0.mat using Guid(4929fffb2c0bd364b9a8bde1468602ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f29795831b4de528e95a56746ec8082d') in 0.0474307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Lamp/Texture/Stone_Lantern_Low_1_Metallic.png
+  artifactKey: Guid(7ac772f2de3d3c74fb47e0d65aa8c832) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Lamp/Texture/Stone_Lantern_Low_1_Metallic.png using Guid(7ac772f2de3d3c74fb47e0d65aa8c832) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3bf9751919e972638af6d6bc22d374b5') in 0.0276894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Plant/Prefab/Ivy_A7.prefab
+  artifactKey: Guid(0ac83e8099f8f1247b8ac6c7dfdb0489) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/start of Erbeio3d builtin rp/Plant/Prefab/Ivy_A7.prefab using Guid(0ac83e8099f8f1247b8ac6c7dfdb0489) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '12d22c46c2f49aae6761604d79d703cc') in 0.0434006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Rock/Texture/Cliff_Low_2_BaseColor.png
+  artifactKey: Guid(afd4286028e03a042abb7aed2fb177ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/Rock/Texture/Cliff_Low_2_BaseColor.png using Guid(afd4286028e03a042abb7aed2fb177ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f8ff1ce337e4f56130c106001d7c5f2b') in 0.0280283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Ground/Prefab/Ground.prefab
+  artifactKey: Guid(04d8d46f139f445489ac01f0c5afb987) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/start of Erbeio3d builtin rp/Ground/Prefab/Ground.prefab using Guid(04d8d46f139f445489ac01f0c5afb987) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '1bb59fc48ad6326831a1f8861d50d84f') in 0.0308279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/start of Erbeio3d builtin rp/RockyGround/RockyGround.mat
+  artifactKey: Guid(ad2c95603136beb4c983f28ddbb9cafa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/start of Erbeio3d builtin rp/RockyGround/RockyGround.mat using Guid(ad2c95603136beb4c983f28ddbb9cafa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '512cc354170355c0c9d9511f8d811f4e') in 0.0477849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.702466 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Ground/Material/Ground1_1.mat
+  artifactKey: Guid(790a1255ac612c84d9cfa568f7fa478d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/start of Erbeio3d builtin rp/Ground/Material/Ground1_1.mat using Guid(790a1255ac612c84d9cfa568f7fa478d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd293798f2b1b85ffac754d761082e1a7') in 0.4866426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.712238 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Lamp/Material/Lamp1.001.mat
+  artifactKey: Guid(80068f3a0c54f8f4f84ebf53b07340d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/start of Erbeio3d builtin rp/Lamp/Material/Lamp1.001.mat using Guid(80068f3a0c54f8f4f84ebf53b07340d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dbcac813b0fd160c271fda0f77ae7d1') in 0.0976792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Lamp/Material/Stone_Lantern.mat
+  artifactKey: Guid(311d622577fde7040bbf2fd54bb01820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/start of Erbeio3d builtin rp/Lamp/Material/Stone_Lantern.mat using Guid(311d622577fde7040bbf2fd54bb01820) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04673ca933cfbbed593098bbea124445') in 0.0512411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.210568 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Plant/Matreial/Fern.mat
+  artifactKey: Guid(56fd2e12630110b4d9043203d9ff5184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/start of Erbeio3d builtin rp/Plant/Matreial/Fern.mat using Guid(56fd2e12630110b4d9043203d9ff5184) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '169d9d3d3b9ab2a8c74b00eccade037f') in 3.3323499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/start of Erbeio3d builtin rp/Plant/Matreial/KurdishIvy_BillBoard.mat
+  artifactKey: Guid(ae2fe65da9c8d484eb01d8297ac82b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/start of Erbeio3d builtin rp/Plant/Matreial/KurdishIvy_BillBoard.mat using Guid(ae2fe65da9c8d484eb01d8297ac82b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e7bdbe8771a4f6f890b006d52c479ed') in 0.0589879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
