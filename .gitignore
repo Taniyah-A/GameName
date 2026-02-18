@@ -1,5 +1,4 @@
 /.vs/
-/Temp
 
 [Bb]in/
 [Bb]uild/
@@ -7,6 +6,8 @@
 [Mm]ods/
 [Oo]bj/
 [Rr]elease*/
+[Uu]ser[Ss]ettings/
+[Tt]emp/
 
 
 Packages/MSTest*
