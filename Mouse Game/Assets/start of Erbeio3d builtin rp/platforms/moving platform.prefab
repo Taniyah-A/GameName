@@ -106,10 +106,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   speed: 6
-  wait: 2
-  xdist: 6
-  ydist: 6
-  zdist: 0
+  distance: {x: 6, y: 0, z: 0}
+  waitTime: 2
 --- !u!54 &1161852108272614923
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -156,5 +154,5 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.98, y: 1, z: 0.98}
   m_Center: {x: 0, y: 0, z: 0}
