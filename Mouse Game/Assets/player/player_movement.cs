@@ -136,8 +136,13 @@ public class PlayerController : MonoBehaviour
         Platform platform = hit.gameObject.GetComponent<Platform>();
         if (platform != null)
         {
-            currentPlatform = platform;
+            if (Vector3.Dot(hit.normal, Vector3.up) > 0.9f)
+            {
+
+                currentPlatform = platform;
+            }
         }
+        
     }
 
 
