@@ -71,6 +71,15 @@ public class PlayerController : MonoBehaviour
 
     private Platform currentPlatform;
 
+
+
+    //[Header("UI")]
+    //// Start is called once before the first execution of Update after the MonoBehaviour is created
+    //[SerializeField] private GameObject uiLevel;
+
+
+
+
     private void Awake()
     {
         controller = GetComponent<CharacterController>();
@@ -81,10 +90,24 @@ public class PlayerController : MonoBehaviour
         moveAction = playerInput.actions["Move"];
         lookAction = playerInput.actions["Look"];
         jumpAction = playerInput.actions["Jump"];
+
+        //if (uiLevel != null)
+        //    uiLevel.SetActive(false);
     }
 
 
 
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    if (other.CompareTag("level") && uiLevel != null)
+    //        uiLevel.SetActive(true);
+    //}
+
+    //private void OnTriggerExit(Collider other)
+    //{
+    //    if (other.CompareTag("level") && uiLevel != null)
+    //        uiLevel.SetActive(false);
+    //}
 
     private void Update() {
         isGrounded = controller.isGrounded;
