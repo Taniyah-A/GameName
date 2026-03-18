@@ -66,11 +66,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8cf7da890267d3e459be9fa836693a1f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8cf7da890267d3e459be9fa836693a1f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8cf7da890267d3e459be9fa836693a1f, type: 3}
       propertyPath: m_LocalRotation.y
@@ -82,7 +82,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8cf7da890267d3e459be9fa836693a1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8cf7da890267d3e459be9fa836693a1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -107,6 +107,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8cf7da890267d3e459be9fa836693a1f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3661595024961522771}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8cf7da890267d3e459be9fa836693a1f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7100900600185725262}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8cf7da890267d3e459be9fa836693a1f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8953827798775803819}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8cf7da890267d3e459be9fa836693a1f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4292774096075282144}
   m_SourcePrefab: {fileID: 100100000, guid: 8cf7da890267d3e459be9fa836693a1f, type: 3}
 --- !u!4 &322243443293328244 stripped
 Transform:
@@ -140,3 +149,53 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7100900600185725262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095225837919324622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &8953827798775803819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095225837919324622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 786302abf565e5b49932654d6a775d09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  fadeGroup: {fileID: 5773845393068297758, guid: e0a2c9b1600ec2848a08423488b02e29, type: 3}
+  fadeSpeed: 1
+--- !u!135 &4292774096075282144
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095225837919324622}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.49959174
+  m_Center: {x: -0.0015143452, y: -0.001014352, z: -0.00046214467}
