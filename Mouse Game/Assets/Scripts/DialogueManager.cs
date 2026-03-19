@@ -1,0 +1,67 @@
+using UnityEngine;
+using System.Collections.Generic;
+using TMPro;
+using UnityEngine.UI;
+using UnityEngine.InputSystem;
+
+public class DialogueManager : MonoBehaviour, Dialogue.IPlayerActions
+{
+    public GameObject dialoguePanel;
+    public TextMeshProUGUI dialogueText;
+
+    private Queue<string> sentences = new Queue<string>();
+    private bool dialogueActive = false;
+
+    private Dialogue controls;
+
+    void Awake() {
+        controls = new Dialogue();
+        controls.Player.SetCallbacks(this);
+    }
+
+    void OnEnable() {
+        controls.Enable();
+    }
+
+    void OnDisabel()
+    {
+        controls.Disable();
+    }
+
+    public void StartDialogue(string[] dialogueLines) { 
+        dialoguePanel.SetActive(true);
+
+        sentences.Clear();
+
+        foreach (string line in dialogueLines) {
+            sentences.Enqueue(line);
+        }
+
+        dialogueActive = true;
+        DisplayNextSentence();
+    }
+
+
+    public void DisplayNextSentence() {
+        if (sentences.Count == 0) {
+            EndDialogue();
+            return;
+        }
+        string sentence = sentences.Dequeue();
+        dialogueText.text = sentence;
+    }
+
+    void EndDialogue() {
+        dialogueText.text = "";
+        dialogueActive = false;
+
+        dialoguePanel.SetActive(false);
+    }
+
+    public void OnInteract(InputAction.CallbackContext context)
+    {
+        if (context.performed && dialogueActive) {
+            DisplayNextSentence();
+        }
+    }
+}
