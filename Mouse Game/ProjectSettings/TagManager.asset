@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Mushroom
   - Platform
+  - level
   layers:
   - Default
   - TransparentFX
