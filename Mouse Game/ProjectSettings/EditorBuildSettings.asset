@@ -8,6 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/Scenes/MushroomField.unity
+    guid: 14b05f066c8ca4875a78c525f6e70063
+  - enabled: 1
+    path: Assets/Scenes/ForestScene.unity
+    guid: 8c694e1355830466b974852aafdbb955
+  - enabled: 1
+    path: Assets/Scenes/tutoral.unity
+    guid: 063a84a60115afc429ae3bd63c59033c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
