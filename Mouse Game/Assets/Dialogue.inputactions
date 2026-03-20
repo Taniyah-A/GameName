@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "Dialogue",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "f3f95508-e585-4dd1-9e41-a107d1ce4074",
+            "actions": [
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "1c2ceaba-ceff-4125-ad01-1e1b09bc82c5",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "64b6a995-2570-4e87-8f6d-96f3900f453a",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
