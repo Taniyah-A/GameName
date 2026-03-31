@@ -24852,7 +24852,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 360}
-  m_SizeDelta: {x: 1000, y: 200}
+  m_SizeDelta: {x: 905, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1682740943
 MonoBehaviour:
@@ -43856,6 +43856,11 @@ MonoBehaviour:
   bounceDecay: 4
   cam: {fileID: 6027845433376323818}
   controller: {fileID: 2407110193867790806}
+  musicSource: {fileID: 0}
+  audioSource: {fileID: 0}
+  footstepClips: []
+  music: {fileID: 0}
+  stepInterval: 0.5
 --- !u!114 &8425531586606519660
 MonoBehaviour:
   m_ObjectHideFlags: 0
