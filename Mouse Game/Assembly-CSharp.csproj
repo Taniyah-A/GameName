@@ -64,6 +64,7 @@
     <Compile Include="Assets\NPC\levelLeave.cs" />
     <Compile Include="Assets\NPC\StayAlive.cs" />
     <Compile Include="Assets\Scripts\MouseNPCTrigger.cs" />
+    <Compile Include="Assets\Scripts\LoadForestScene.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\player\player_movement.cs" />
     <Compile Include="Assets\start of Erbeio3d builtin rp\mushrooms\mushroom.cs" />
