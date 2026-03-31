@@ -78,8 +78,10 @@ public class PlayerController : MonoBehaviour
 
     //Audio
     [Header("Audio")]
+    public AudioSource musicSource;
     public AudioSource audioSource; // Drag your AudioSource component here in the Inspector
     public AudioClip[] footstepClips; // Assign your concrete sounds in the Inspector
+    public AudioClip music;
     [SerializeField] float stepInterval = 0.5f; // Time between steps
     private float stepTimer;
 
@@ -98,7 +100,15 @@ public class PlayerController : MonoBehaviour
         //    uiLevel.SetActive(false);
     }
 
-
+    public void Start()
+    {
+        if (music != null)
+        {
+            musicSource.clip = music;
+            musicSource.loop = true;
+            musicSource.Play();
+        }
+    }
 
     //private void OnTriggerEnter(Collider other)
     //{
