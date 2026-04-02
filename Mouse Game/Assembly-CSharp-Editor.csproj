@@ -1195,7 +1195,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Recorder.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
+      <HintPath>Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Splines.Editor">
@@ -1251,11 +1251,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Bindings.OpenImageIO.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Bindings.OpenImageIO.Editor.dll</HintPath>
+      <HintPath>Library/ScriptAssemblies/Unity.Bindings.OpenImageIO.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Recorder.Base">
-      <HintPath>Library\ScriptAssemblies\Unity.Recorder.Base.dll</HintPath>
+      <HintPath>Library/ScriptAssemblies/Unity.Recorder.Base.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
@@ -1291,7 +1291,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Recorder">
-      <HintPath>Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
+      <HintPath>Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
