@@ -1,10 +1,9 @@
-using System;
-using System.Collections.Specialized;
-using System.ComponentModel;
-using System.Security.Cryptography;
-using System.Threading;
+
+
 using UnityEngine;
 using UnityEngine.InputSystem;
+
+
 
 
 [RequireComponent(typeof(CharacterController))]
@@ -77,8 +76,14 @@ public class PlayerController : MonoBehaviour
     //// Start is called once before the first execution of Update after the MonoBehaviour is created
     //[SerializeField] private GameObject uiLevel;
 
-
-
+    //Audio
+    [Header("Audio")]
+    public AudioSource musicSource;
+    public AudioSource audioSource; // Drag your AudioSource component here in the Inspector
+    public AudioClip[] footstepClips; // Assign your concrete sounds in the Inspector
+    public AudioClip music;
+    [SerializeField] float stepInterval = 0.5f; // Time between steps
+    private float stepTimer;
 
     private void Awake()
     {
@@ -95,7 +100,15 @@ public class PlayerController : MonoBehaviour
         //    uiLevel.SetActive(false);
     }
 
-
+    public void Start()
+    {
+        if (music != null)
+        {
+            musicSource.clip = music;
+            musicSource.loop = true;
+            musicSource.Play();
+        }
+    }
 
     //private void OnTriggerEnter(Collider other)
     //{
@@ -185,6 +198,15 @@ public class PlayerController : MonoBehaviour
             Vector3 movedir = Quaternion.Euler(0, targAngle, 0) * Vector3.forward;
 
             controller.Move(movedir.normalized * speed * Time.deltaTime);
+            if (isGrounded)
+            {
+                stepTimer -= Time.deltaTime;
+                if (stepTimer <= 0)
+                {
+                    PlayFootstep();
+                    stepTimer = stepInterval; // Reset the timer
+                }
+            }
         }
         else {
             animator.SetBool(IsWalkingHash, false);
@@ -224,4 +246,23 @@ public class PlayerController : MonoBehaviour
 
         controller.Move(playerVelocity * Time.deltaTime);
     }
+
+    private void PlayFootstep()
+    {
+        if (footstepClips.Length > 0)
+        {
+            // Pick a random clip from your array
+            int index = Random.Range(0, footstepClips.Length);
+
+            // Randomize pitch slightly for realism
+
+            float volume = 0.5f;
+
+
+            audioSource.pitch = Random.Range(0.9f, 1.1f);
+            audioSource.PlayOneShot(footstepClips[index], volume);
+        }
+    }
 }
+
+
