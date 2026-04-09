@@ -1,5 +1,6 @@
 
 
+
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -78,10 +79,12 @@ public class PlayerController : MonoBehaviour
 
     //Audio
     [Header("Audio")]
+
     public AudioSource musicSource;
     public AudioSource audioSource; // Drag your AudioSource component here in the Inspector
     public AudioClip[] footstepClips; // Assign your concrete sounds in the Inspector
     public AudioClip music;
+    public AudioClip bounce;
     [SerializeField] float stepInterval = 0.5f; // Time between steps
     private float stepTimer;
 
@@ -164,6 +167,7 @@ public class PlayerController : MonoBehaviour
             Mushroom mushroom = hit.gameObject.GetComponent<Mushroom>();
             if (mushroom != null)
             {
+                PlayBounce();
                 mushroom.PlayBounce(); // Call a public method on your mushroom
             }
         }
@@ -262,6 +266,15 @@ public class PlayerController : MonoBehaviour
             audioSource.pitch = Random.Range(0.9f, 1.1f);
             audioSource.PlayOneShot(footstepClips[index], volume);
         }
+    }
+    private void PlayBounce()
+    {
+
+            float volume = 0.5f;
+
+            audioSource.pitch = Random.Range(0.9f, 1.1f);
+            audioSource.PlayOneShot(bounce, volume);
+       
     }
 }
 
