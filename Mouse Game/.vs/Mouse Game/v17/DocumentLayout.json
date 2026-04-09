@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ericm\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\player\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\player\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\MainMenuController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MainMenuController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ericm\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\SceneLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\SceneLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SceneLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\LoadForestScene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LoadForestScene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\SaveManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SaveManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\player\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\player\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,16 +34,7 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\menus\\levelpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Library\\PackageCache\\com.unity.render-pipelines.universal@f70afd0d2146\\Runtime\\UniversalRenderPipeline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@f70afd0d2146\\Runtime\\UniversalRenderPipeline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\player\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\player\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\start of Erbeio3d builtin rp\\platforms\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ericm\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\start of Erbeio3d builtin rp\\platforms\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\start of Erbeio3d builtin rp\\platforms\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -54,8 +49,12 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ericm\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\player\\camra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Library\\PackageCache\\com.unity.render-pipelines.universal@f70afd0d2146\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@f70afd0d2146\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\player\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\player\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:3:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\player\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:3:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\player\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -65,11 +64,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "player_movement.cs",
               "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\player\\player_movement.cs",
               "RelativeDocumentMoniker": "Assets\\player\\player_movement.cs",
@@ -78,8 +77,118 @@
               "ViewState": "AgIAAEIAAAAAAAAAAAAAAGkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-03T23:32:40.023Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "player_movement.cs",
+              "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\player\\player_movement.cs",
+              "RelativeDocumentMoniker": "Assets\\player\\player_movement.cs",
+              "ToolTip": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\player\\player_movement.cs",
+              "RelativeToolTip": "Assets\\player\\player_movement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T16:19:48.852Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainMenuController.cs",
+              "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\MainMenuController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenuController.cs",
+              "ToolTip": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\MainMenuController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenuController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T17:40:51.814Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SaveManager.cs",
+              "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\SaveManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SaveManager.cs",
+              "ToolTip": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\SaveManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SaveManager.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAowDkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T17:30:59.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SceneLoader.cs",
+              "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\SceneLoader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneLoader.cs",
+              "ToolTip": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\SceneLoader.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneLoader.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T17:26:11.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "player_movement.cs",
+              "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\player\\player_movement.cs",
+              "RelativeDocumentMoniker": "Assets\\player\\player_movement.cs",
+              "ToolTip": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\player\\player_movement.cs",
+              "RelativeToolTip": "Assets\\player\\player_movement.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAIBJwEEAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T12:54:41.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dialogue.cs",
+              "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Dialogue.cs",
+              "RelativeDocumentMoniker": "Assets\\Dialogue.cs",
+              "ToolTip": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Dialogue.cs",
+              "RelativeToolTip": "Assets\\Dialogue.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T16:27:42.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RTS Game Engine.cpp",
+              "DocumentMoniker": "C:\\C\\RTS Game Engine\\RTS Game Engine\\RTS Game Engine\\RTS Game Engine.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\C\\RTS Game Engine\\RTS Game Engine\\RTS Game Engine\\RTS Game Engine.cpp",
+              "ToolTip": "C:\\C\\RTS Game Engine\\RTS Game Engine\\RTS Game Engine\\RTS Game Engine.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\C\\RTS Game Engine\\RTS Game Engine\\RTS Game Engine\\RTS Game Engine.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-18T15:23:22.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "levelpopup.cs",
+              "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\menus\\levelpopup.cs",
+              "RelativeDocumentMoniker": "Assets\\menus\\levelpopup.cs",
+              "ToolTip": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\menus\\levelpopup.cs",
+              "RelativeToolTip": "Assets\\menus\\levelpopup.cs",
+              "ViewState": "AgIAAD4DAAAAAAAAAAAlwFEDAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T18:12:09.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "levelLeave.cs",
+              "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\NPC\\levelLeave.cs",
+              "RelativeDocumentMoniker": "Assets\\NPC\\levelLeave.cs",
+              "ToolTip": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\NPC\\levelLeave.cs",
+              "RelativeToolTip": "Assets\\NPC\\levelLeave.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T17:55:27.357Z"
             },
             {
               "$type": "Document",
@@ -89,130 +198,9 @@
               "RelativeDocumentMoniker": "Assets\\start of Erbeio3d builtin rp\\platforms\\platform.cs",
               "ToolTip": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\start of Erbeio3d builtin rp\\platforms\\platform.cs",
               "RelativeToolTip": "Assets\\start of Erbeio3d builtin rp\\platforms\\platform.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T16:19:48.852Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoadForestScene.cs",
-              "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\LoadForestScene.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LoadForestScene.cs",
-              "ToolTip": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\LoadForestScene.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LoadForestScene.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T17:26:11.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SceneLoader.cs",
-              "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\SceneLoader.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneLoader.cs",
-              "ToolTip": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\SceneLoader.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SceneLoader.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAIBJwEEAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T12:54:41.045Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Dialogue.cs",
-              "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Dialogue.cs",
-              "RelativeDocumentMoniker": "Assets\\Dialogue.cs",
-              "ToolTip": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Dialogue.cs",
-              "RelativeToolTip": "Assets\\Dialogue.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T17:57:46.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RTS Game Engine.cpp",
-              "DocumentMoniker": "C:\\C\\RTS Game Engine\\RTS Game Engine\\RTS Game Engine\\RTS Game Engine.cpp",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\C\\RTS Game Engine\\RTS Game Engine\\RTS Game Engine\\RTS Game Engine.cpp",
-              "ToolTip": "C:\\C\\RTS Game Engine\\RTS Game Engine\\RTS Game Engine\\RTS Game Engine.cpp",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\C\\RTS Game Engine\\RTS Game Engine\\RTS Game Engine\\RTS Game Engine.cpp",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-03-18T16:27:42.592Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "levelLeave.cs",
-              "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\NPC\\levelLeave.cs",
-              "RelativeDocumentMoniker": "Assets\\NPC\\levelLeave.cs",
-              "ToolTip": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\NPC\\levelLeave.cs",
-              "RelativeToolTip": "Assets\\NPC\\levelLeave.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T15:23:22.543Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UniversalRenderPipeline.cs",
-              "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Library\\PackageCache\\com.unity.render-pipelines.universal@f70afd0d2146\\Runtime\\UniversalRenderPipeline.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@f70afd0d2146\\Runtime\\UniversalRenderPipeline.cs",
-              "ToolTip": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Library\\PackageCache\\com.unity.render-pipelines.universal@f70afd0d2146\\Runtime\\UniversalRenderPipeline.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@f70afd0d2146\\Runtime\\UniversalRenderPipeline.cs",
-              "ViewState": "AgIAAD4DAAAAAAAAAAAlwFEDAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T18:12:09.656Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "levelpopup.cs",
-              "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\menus\\levelpopup.cs",
-              "RelativeDocumentMoniker": "Assets\\menus\\levelpopup.cs",
-              "ToolTip": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\menus\\levelpopup.cs",
-              "RelativeToolTip": "Assets\\menus\\levelpopup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T17:55:27.357Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MaterialPostprocessor.cs",
-              "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Library\\PackageCache\\com.unity.shadergraph@3ea479829020\\Editor\\Generation\\Targets\\BuiltIn\\Editor\\AssetPostProcessors\\MaterialPostprocessor.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.shadergraph@3ea479829020\\Editor\\Generation\\Targets\\BuiltIn\\Editor\\AssetPostProcessors\\MaterialPostprocessor.cs",
-              "ToolTip": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Library\\PackageCache\\com.unity.shadergraph@3ea479829020\\Editor\\Generation\\Targets\\BuiltIn\\Editor\\AssetPostProcessors\\MaterialPostprocessor.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.shadergraph@3ea479829020\\Editor\\Generation\\Targets\\BuiltIn\\Editor\\AssetPostProcessors\\MaterialPostprocessor.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAjwEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-19T19:07:20.682Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Lit.shader",
-              "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Library\\PackageCache\\com.unity.render-pipelines.universal@f70afd0d2146\\Shaders\\Lit.shader",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@f70afd0d2146\\Shaders\\Lit.shader",
-              "ToolTip": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Library\\PackageCache\\com.unity.render-pipelines.universal@f70afd0d2146\\Shaders\\Lit.shader",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@f70afd0d2146\\Shaders\\Lit.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-13T16:15:06.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "mushroom.cs",
-              "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\start of Erbeio3d builtin rp\\mushrooms\\mushroom.cs",
-              "RelativeDocumentMoniker": "Assets\\start of Erbeio3d builtin rp\\mushrooms\\mushroom.cs",
-              "ToolTip": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\start of Erbeio3d builtin rp\\mushrooms\\mushroom.cs",
-              "RelativeToolTip": "Assets\\start of Erbeio3d builtin rp\\mushrooms\\mushroom.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T02:09:22.162Z"
             },
             {
               "$type": "Document",
@@ -222,6 +210,30 @@
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\ericm\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\player\\camra.cs",
               "ToolTip": "C:\\Users\\ericm\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\player\\camra.cs",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\ericm\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\player\\camra.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T16:15:06.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MaterialPostprocessor.cs",
+              "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Library\\PackageCache\\com.unity.shadergraph@3ea479829020\\Editor\\Generation\\Targets\\BuiltIn\\Editor\\AssetPostProcessors\\MaterialPostprocessor.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.shadergraph@3ea479829020\\Editor\\Generation\\Targets\\BuiltIn\\Editor\\AssetPostProcessors\\MaterialPostprocessor.cs",
+              "ToolTip": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Library\\PackageCache\\com.unity.shadergraph@3ea479829020\\Editor\\Generation\\Targets\\BuiltIn\\Editor\\AssetPostProcessors\\MaterialPostprocessor.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.shadergraph@3ea479829020\\Editor\\Generation\\Targets\\BuiltIn\\Editor\\AssetPostProcessors\\MaterialPostprocessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T02:09:22.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "mushroom.cs",
+              "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\start of Erbeio3d builtin rp\\mushrooms\\mushroom.cs",
+              "RelativeDocumentMoniker": "Assets\\start of Erbeio3d builtin rp\\mushrooms\\mushroom.cs",
+              "ToolTip": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\start of Erbeio3d builtin rp\\mushrooms\\mushroom.cs",
+              "RelativeToolTip": "Assets\\start of Erbeio3d builtin rp\\mushrooms\\mushroom.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-03T23:32:22.957Z"
             }

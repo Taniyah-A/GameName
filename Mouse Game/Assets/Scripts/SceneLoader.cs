@@ -16,6 +16,7 @@ public class SceneLoader : MonoBehaviour
     private void OnTriggerEnter(Collider other){
         if (other.CompareTag(playerTag)){
             MarkLevelComplete();
+            SaveNextScene();
             LoadTargetScene();
         }    
     }
@@ -27,6 +28,20 @@ public class SceneLoader : MonoBehaviour
             return;
         }
         SceneManager.LoadScene(targetSceneName);
+    }
+
+    private void SaveNextScene()
+    {
+        if (string.IsNullOrEmpty(targetSceneName))
+        {
+            Debug.LogError("Scene name is not set in the SceneLoader. Cannot save next scene.");
+            return;
+        }
+
+        PlayerPrefs.SetString("SavedSceneName", targetSceneName);
+        PlayerPrefs.Save();
+
+        Debug.Log("Next scene saved: " + targetSceneName);
     }
 
     private void OnDrawGizmos()
