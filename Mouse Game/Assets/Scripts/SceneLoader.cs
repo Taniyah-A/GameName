@@ -26,7 +26,11 @@ public class SceneLoader : MonoBehaviour
             Debug.LogError("Scene name is not set in the SceneLoader.");
             return;
         }
-        SceneManager.LoadScene(targetSceneName);
+
+        if (TransitionManager.Instance != null)
+            TransitionManager.Instance.TransitionToScene(targetSceneName);
+        else
+            SceneManager.LoadScene(targetSceneName);
     }
 
     private void OnDrawGizmos()
