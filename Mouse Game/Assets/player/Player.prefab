@@ -269,7 +269,7 @@ Transform:
   m_GameObject: {fileID: 6019483448172386910}
   serializedVersion: 2
   m_LocalRotation: {x: 0.21976535, y: -0.58364576, z: 0.16801043, w: 0.76343524}
-  m_LocalPosition: {x: 471.05115, y: 2.082815, z: 486.93497}
+  m_LocalPosition: {x: 1.7611305, y: 2.002815, z: -0.70502734}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -617,6 +617,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 687ba798a2b9b7943835611dc97b5217, type: 3}
   - {fileID: 8300000, guid: c65e057985f88394c8eafb75c2acee2a, type: 3}
   music: {fileID: 8300000, guid: b4ca79fb6662b694ea44cc48cfb974e5, type: 3}
+  bounce: {fileID: 8300000, guid: c887b54fcd8c916478514cc36b64362b, type: 3}
   stepInterval: 0.25
 --- !u!143 &2407110194110463548
 CharacterController:
