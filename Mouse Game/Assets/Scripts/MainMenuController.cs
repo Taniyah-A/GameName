@@ -6,6 +6,7 @@ public class MainMenuController : MonoBehaviour
 
     [SerializeField] private string firstSceneName = "ForestScene";
 
+
    public void NewGame()
     {
         if (SaveManager.Instance != null)
