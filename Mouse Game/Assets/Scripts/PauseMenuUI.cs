@@ -70,4 +70,17 @@ public class PauseMenuUI : MonoBehaviour
             Debug.Log("Quitting game...");
             Application.Quit();
     }
+
+    public void SaveGame() 
+    { 
+        if (SaveManager.Instance != null)
+        {
+            SaveManager.Instance.SaveCurrentScene();
+            Debug.Log("Game saved successfully.");
+        }
+        else
+        {
+            Debug.LogWarning("SaveManager instance not found. Cannot save game.");
+        }
+    }
 }
