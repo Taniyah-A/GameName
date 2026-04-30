@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67c1ea06341e35a4c9fe2e08745882cf, type: 3}
+  m_Name: MowseDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  npcID: Mowse
+  npcName: Mowse
+  FirstTimeDialogue:
+  - 'First time out? '
+  - Hope it goes well.
+  - Mice who leave never seem to come back...
+  ReturnedDialogue:
+  - 'I thought you where gone for good, '
+  - ' glad you made it.'
+  ThirdDialogue:
+  - 'How many times have you left? '
+  - ' Three? Four?'
+  - Keep thinking you will never come back, but you always do.
+  LastLevelDialogue:
+  - 'Heard that this might be your last trip? '
+  - 'Hope you save the last little guy. '
+  AllLevelsCompleted: []

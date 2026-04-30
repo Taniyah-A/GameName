@@ -18,7 +18,6 @@ public class SaveManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    
 
     // Save the current scene name
     public void SaveCurrentScene()
@@ -48,7 +47,9 @@ public class SaveManager : MonoBehaviour
     // Start a fresh game by clearing saved data and loading the first scene
     public void StartNewGame(string firstSceneName)
     {
-        PlayerPrefs.DeleteKey("SavedSceneName");
+        //PlayerPrefs.DeleteKey("SavedSceneName");
+        // Clear everything instead. 
+        PlayerPrefs.DeleteAll();
         PlayerPrefs.Save();
         SceneManager.LoadScene(firstSceneName);
     }

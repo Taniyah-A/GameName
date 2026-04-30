@@ -11,29 +11,39 @@ public class DialogueManager : MonoBehaviour, Dialogue.IPlayerActions
 
     private Queue<string> sentences = new Queue<string>();
     private bool dialogueActive = false;
+    public System.Action OnDialogueEnd;
 
     private Dialogue controls;
 
-    void Awake() {
+    public bool IsDialogueActive()
+    {
+        return dialogueActive;
+    }
+
+    void Awake()
+    {
         controls = new Dialogue();
         controls.Player.SetCallbacks(this);
     }
 
-    void OnEnable() {
+    void OnEnable()
+    {
         controls.Enable();
     }
 
-    void OnDisabel()
+    void OnDisable()
     {
         controls.Disable();
     }
 
-    public void StartDialogue(string[] dialogueLines) { 
+    public void StartDialogue(string[] dialogueLines)
+    {
         dialoguePanel.SetActive(true);
 
         sentences.Clear();
 
-        foreach (string line in dialogueLines) {
+        foreach (string line in dialogueLines)
+        {
             sentences.Enqueue(line);
         }
 
@@ -42,8 +52,10 @@ public class DialogueManager : MonoBehaviour, Dialogue.IPlayerActions
     }
 
 
-    public void DisplayNextSentence() {
-        if (sentences.Count == 0) {
+    public void DisplayNextSentence()
+    {
+        if (sentences.Count == 0)
+        {
             EndDialogue();
             return;
         }
@@ -51,16 +63,22 @@ public class DialogueManager : MonoBehaviour, Dialogue.IPlayerActions
         dialogueText.text = sentence;
     }
 
-    void EndDialogue() {
+    void EndDialogue()
+    {
         dialogueText.text = "";
         dialogueActive = false;
 
         dialoguePanel.SetActive(false);
+
+        Debug.Log("Dialogue ended.");
+        OnDialogueEnd?.Invoke();
     }
 
     public void OnInteract(InputAction.CallbackContext context)
     {
-        if (context.performed && dialogueActive) {
+        if (context.performed && dialogueActive)
+        {
+            Debug.Log("Pressed E for next sentence");
             DisplayNextSentence();
         }
     }
