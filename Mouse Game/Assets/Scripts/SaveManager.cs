@@ -18,6 +18,7 @@ public class SaveManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    
 
     // Save the current scene name
     public void SaveCurrentScene()
