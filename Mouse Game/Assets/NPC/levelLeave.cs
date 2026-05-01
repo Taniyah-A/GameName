@@ -13,7 +13,25 @@ public class LevelLeave : MonoBehaviour
     {
         if (other.CompareTag("Player") && !isLoading)
         {
+            MarkLevelComplete();
             StartCoroutine(LoadSceneAsync());
+        }
+    }
+
+    private void MarkLevelComplete()
+    {
+
+        int currentLevel = SceneManager.GetActiveScene().buildIndex;
+
+
+        int lastCompleted = PlayerPrefs.GetInt("LastCompletedLevel", 0);
+
+        Debug.Log($"MarkLevelComplete called | currentLevel: {currentLevel} | lastCompleted: {lastCompleted}");
+        if (currentLevel > lastCompleted)
+        {
+            PlayerPrefs.SetInt("LastCompletedLevel", currentLevel);
+            PlayerPrefs.Save();
+            Debug.LogError("Scene has saved level");
         }
     }
 

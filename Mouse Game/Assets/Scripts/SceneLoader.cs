@@ -15,7 +15,6 @@ public class SceneLoader : MonoBehaviour
 
     private void OnTriggerEnter(Collider other){
         if (other.CompareTag(playerTag)){
-            MarkLevelComplete();
             SaveNextScene();
             LoadTargetScene();
         }    
@@ -61,21 +60,7 @@ public class SceneLoader : MonoBehaviour
         }
     }
 
-    private void MarkLevelComplete()
-    {
-
-        int currentLevel = SceneManager.GetActiveScene().buildIndex;
-
-
-        int lastCompleted = PlayerPrefs.GetInt("LastCompletedLevel", 0);
-
-        if (currentLevel > lastCompleted)
-        {
-            PlayerPrefs.SetInt("LastCompletedLevel", currentLevel);
-            PlayerPrefs.Save();
-            Debug.LogError("Scene has saved level");
-        }
-    }
+    
 
     
 
