@@ -268,8 +268,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6019483448172386910}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2663689, y: -2.6165212e-15, z: 7.230839e-16, w: 0.9638712}
-  m_LocalPosition: {x: 0.00064533064, y: 2.0993342, z: -2.1984289}
+  m_LocalRotation: {x: 0.27151576, y: -0.006194167, z: 0.001747498, w: 0.9624125}
+  m_LocalPosition: {x: -0.1473999, y: 2.0479052, z: -2.2737122}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -617,6 +617,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 687ba798a2b9b7943835611dc97b5217, type: 3}
   - {fileID: 8300000, guid: c65e057985f88394c8eafb75c2acee2a, type: 3}
   music: {fileID: 8300000, guid: b4ca79fb6662b694ea44cc48cfb974e5, type: 3}
+  bounce: {fileID: 8300000, guid: 49667631c23374442809f61808505e5f, type: 3}
   stepInterval: 0.25
 --- !u!143 &2407110194110463548
 CharacterController:
