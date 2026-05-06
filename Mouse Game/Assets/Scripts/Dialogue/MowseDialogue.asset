@@ -21,6 +21,9 @@ MonoBehaviour:
   ReturnedDialogue:
   - 'I thought you where gone for good, '
   - ' glad you made it.'
+  - Going back out?
+  - Should I say 'see you soon'?
+  - I suppose only time will tell...
   ThirdDialogue:
   - 'How many times have you left? '
   - ' Three? Four?'
@@ -28,4 +31,5 @@ MonoBehaviour:
   LastLevelDialogue:
   - 'Heard that this might be your last trip? '
   - 'Hope you save the last little guy. '
-  AllLevelsCompleted: []
+  AllLevelsCompleted:
+  - You have freed all the mice!!!

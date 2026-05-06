@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67c1ea06341e35a4c9fe2e08745882cf, type: 3}
-  m_Name: TimCheeseDialogue
+  m_Name: FrankDialogue
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
-  npcID: Tim Cheese
-  npcName: Tim Cheese
+  npcID: Frank
+  npcName: Frank
   FirstTimeDialogue:
-  - Place some faith in the mice, they give good advice.
+  - "Cheese was once the love of my life, \r\n"
+  - 'before I met my wife. I don''t know where she ran off to.
+
+'
   ReturnedDialogue:
-  - 'They say there are no cats in America, '
-  - 'but actually there are no cats here '
+  - Lemons are yellow, but taste terrible.
   ThirdDialogue:
-  - This place seems timeless.
+  - They say somebody is always watching and controlling your every move.
+  - ' Luckily that is not me.'
   LastLevelDialogue:
-  - Most things are high up, climb.
-  - Patience and balance are key when jumping on floating platforms.
-  AllLevelsCompleted:
-  - You brought back all the mice!
-  - Good job!
+  - How much dialogue does one need?!
+  AllLevelsCompleted: []

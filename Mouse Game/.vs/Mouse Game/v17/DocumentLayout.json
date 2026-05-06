@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MouseNPCTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\DialogueManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DialogueManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Library\\PackageCache\\com.unity.render-pipelines.universal@f70afd0d2146\\Runtime\\Passes\\AdditionalLightsShadowCasterPass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@f70afd0d2146\\Runtime\\Passes\\AdditionalLightsShadowCasterPass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\SaveManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SaveManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\DialogueManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DialogueManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\player\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -51,8 +51,7 @@
               "ViewState": "AgIAAEIAAAAAAAAAAAAAAGkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-03T23:32:40.023Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -69,7 +68,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MouseNPCTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\MouseNPCTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MouseNPCTrigger.cs",
+              "ToolTip": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\MouseNPCTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MouseNPCTrigger.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAE8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T20:32:27.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DialogueManager.cs",
+              "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\DialogueManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueManager.cs",
+              "ToolTip": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\DialogueManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DialogueManager.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAgwGMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T20:32:20.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AdditionalLightsShadowCasterPass.cs",
               "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Library\\PackageCache\\com.unity.render-pipelines.universal@f70afd0d2146\\Runtime\\Passes\\AdditionalLightsShadowCasterPass.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@f70afd0d2146\\Runtime\\Passes\\AdditionalLightsShadowCasterPass.cs",
@@ -77,25 +102,11 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@f70afd0d2146\\Runtime\\Passes\\AdditionalLightsShadowCasterPass.cs",
               "ViewState": "AgIAAKIBAAAAAAAAAAAjwLIBAABXAQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T20:43:11.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T20:43:11.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MouseNPCTrigger.cs",
-              "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\MouseNPCTrigger.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MouseNPCTrigger.cs",
-              "ToolTip": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\MouseNPCTrigger.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MouseNPCTrigger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T20:32:27.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "NPCDialogue.cs",
               "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\NPCDialogue.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NPCDialogue.cs",
@@ -103,12 +114,11 @@
               "RelativeToolTip": "Assets\\Scripts\\NPCDialogue.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T20:32:47.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T20:32:47.229Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SaveManager.cs",
               "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\SaveManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SaveManager.cs",
@@ -116,21 +126,7 @@
               "RelativeToolTip": "Assets\\Scripts\\SaveManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T20:33:39.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DialogueManager.cs",
-              "DocumentMoniker": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\DialogueManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueManager.cs",
-              "ToolTip": "C:\\Users\\tdarm\\OneDrive\\Documents\\GitHub\\GameName\\Mouse Game\\Assets\\Scripts\\DialogueManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DialogueManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T20:32:20.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T20:33:39.114Z"
             }
           ]
         }

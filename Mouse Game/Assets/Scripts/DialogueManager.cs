@@ -15,6 +15,13 @@ public class DialogueManager : MonoBehaviour, Dialogue.IPlayerActions
 
     private Dialogue controls;
 
+    private bool justEnded = false;
+    
+    public bool JustEndedDialogue()
+    {
+        return justEnded;
+    }
+
     public bool IsDialogueActive()
     {
         return dialogueActive;
@@ -67,11 +74,19 @@ public class DialogueManager : MonoBehaviour, Dialogue.IPlayerActions
     {
         dialogueText.text = "";
         dialogueActive = false;
-
         dialoguePanel.SetActive(false);
 
         Debug.Log("Dialogue ended.");
+
+        justEnded = true;
+        Invoke(nameof(ResetJustEnded), 0.2f); // small delay to prevent immediate re-triggering of dialogue
+
         OnDialogueEnd?.Invoke();
+    }
+
+    void ResetJustEnded()
+    {
+               justEnded = false;
     }
 
     public void OnInteract(InputAction.CallbackContext context)

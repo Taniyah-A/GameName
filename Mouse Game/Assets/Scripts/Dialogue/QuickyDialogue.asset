@@ -17,9 +17,15 @@ MonoBehaviour:
   FirstTimeDialogue:
   - I am cheese, I am cheese.
   ReturnedDialogue:
+  - 'Mice love to bounce around from one place to another. '
   - "Squeak, you can\u2019t beat me.  "
   - 'Laugh all you want,  '
   - ' but one day I will be known throughout the world. '
-  ThirdDialogue: []
-  LastLevelDialogue: []
-  AllLevelsCompleted: []
+  ThirdDialogue:
+  - 'I will live forever as long as this world exists. '
+  LastLevelDialogue:
+  - Patience
+  AllLevelsCompleted:
+  - WOW
+  - You actually did.
+  - You brought them all back!

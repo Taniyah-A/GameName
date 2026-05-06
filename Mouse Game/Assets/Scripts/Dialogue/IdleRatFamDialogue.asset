@@ -15,11 +15,16 @@ MonoBehaviour:
   npcID: Cheddar, Olive & Cashew
   npcName: Cheddar, Olive & Cashew
   FirstTimeDialogue: []
-  ReturnedDialogue: []
+  ReturnedDialogue:
+  - You must try some cheese
+  - if only we had some!!
   ThirdDialogue:
   - 'In a hole in the ground there lived a mouse. '
   - Not a nasty wet hole,
   - nor a dry sandy hole,
   - ' but a mouse hole and that means comfort.'
-  LastLevelDialogue: []
-  AllLevelsCompleted: []
+  LastLevelDialogue:
+  - "Can\u2019t you help out around the house? "
+  - 'We are mice and mice help each other '
+  AllLevelsCompleted:
+  - Time for celebration!

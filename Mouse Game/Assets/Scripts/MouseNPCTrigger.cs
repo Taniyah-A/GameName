@@ -15,7 +15,7 @@ public class MouseNPCTrigger : MonoBehaviour
     bool HasTalkedToNPC()
     {
         int completed = PlayerPrefs.GetInt("LastCompletedLevel", 0);
-        string key = dialogueData.npcID + "_talked_" + completed;
+        string key = dialogueData.npcID + "_talked_level_" + completed;
         return PlayerPrefs.GetInt(key, 0) == 1;
     }
 
@@ -79,6 +79,12 @@ public class MouseNPCTrigger : MonoBehaviour
     void Update()
     {
         if (!playerInRange) return;
+
+        // prvent immediate re-triggering after dialogue ends
+        if (dialogueManager.JustEndedDialogue())
+        {
+            return;
+        }
 
         if (HasTalkedToNPC())
         {

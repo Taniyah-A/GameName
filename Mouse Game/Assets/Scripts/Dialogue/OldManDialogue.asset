@@ -14,8 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
   npcID: Old Man Yal & Old Man Mochi
   npcName: Old Man Yal & Old Man Mochi
-  FirstTimeDialogue: []
-  ReturnedDialogue: []
+  FirstTimeDialogue:
+  - You should never leave the village.
+  - Only trouble lies beyond our walls.
+  ReturnedDialogue:
+  - Mushrooms bounce, platforms move, this is life, nothing new.
   ThirdDialogue:
   - "These young mice wander out to the forest and they don\u2019t come back. "
   - 'Sqik. '

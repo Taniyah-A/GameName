@@ -16,9 +16,13 @@ MonoBehaviour:
   npcName: Grant
   FirstTimeDialogue:
   - 'Have you seen that moving platform outside the village? '
-  - 'They say there is a magical stone that transports you else were if you go through
-    it. '
-  ReturnedDialogue: []
+  - 'They say there is a magical stone that transports you elsewhere if you pass
+    through it. '
+  - 'I heard some of the villagers go through them to find cheese. '
+  ReturnedDialogue:
+  - 'You know, '
+  - you should never go through the same arch twice
+  - 'it takes you nowhere. '
   ThirdDialogue: []
   LastLevelDialogue: []
   AllLevelsCompleted: []

@@ -14,10 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
   npcID: Della
   npcName: Della
-  FirstTimeDialogue: []
+  FirstTimeDialogue:
+  - 'I heard the missing mice are in the forest! '
+  - 'What a terrible fate. '
   ReturnedDialogue:
+  - What a brave little mouse!!
+  - Are you going back to save the others?
+  - Well, be careful.
+  ThirdDialogue:
   - Wish the lost city of cheese was here,
   - but alas I searched everywhere.
-  ThirdDialogue: []
-  LastLevelDialogue: []
-  AllLevelsCompleted: []
+  LastLevelDialogue:
+  - Can you believe the forest does not have cheese?
+  AllLevelsCompleted:
+  - What a great job you have done!!!
+  - I wish you had brought back cheese, though.

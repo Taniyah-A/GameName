@@ -21013,8 +21013,57 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7475504415490730262, guid: edc01dfacd257fb4ebd8d29b03c7a16c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 938706554}
+    - targetCorrespondingSourceObject: {fileID: 7475504415490730262, guid: edc01dfacd257fb4ebd8d29b03c7a16c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 938706555}
   m_SourcePrefab: {fileID: 100100000, guid: edc01dfacd257fb4ebd8d29b03c7a16c, type: 3}
+--- !u!1 &938706553 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7475504415490730262, guid: edc01dfacd257fb4ebd8d29b03c7a16c, type: 3}
+  m_PrefabInstance: {fileID: 938706552}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &938706554
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938706553}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 7
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &938706555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938706553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69003eb55f980db4ba67bfc01dcb232a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MouseNPCTrigger
+  dialogueManager: {fileID: 1157541747}
+  promptText: {fileID: 1577824888}
+  dialogueData: {fileID: 11400000, guid: 53d9d5dd728fae84380c14a402ab89b1, type: 2}
 --- !u!1 &940020079
 GameObject:
   m_ObjectHideFlags: 0
@@ -44842,13 +44891,62 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2993460370897949454, guid: 5b855b769c92d834797dd595e2d5aa29, type: 3}
       propertyPath: m_Name
-      value: Old man Yal
+      value: Micerie
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2993460370897949454, guid: 5b855b769c92d834797dd595e2d5aa29, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2023196335}
+    - targetCorrespondingSourceObject: {fileID: 2993460370897949454, guid: 5b855b769c92d834797dd595e2d5aa29, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2023196334}
   m_SourcePrefab: {fileID: 100100000, guid: 5b855b769c92d834797dd595e2d5aa29, type: 3}
+--- !u!1 &2023196333 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2993460370897949454, guid: 5b855b769c92d834797dd595e2d5aa29, type: 3}
+  m_PrefabInstance: {fileID: 2023196332}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &2023196334
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023196333}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2023196335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023196333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69003eb55f980db4ba67bfc01dcb232a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MouseNPCTrigger
+  dialogueManager: {fileID: 1157541747}
+  promptText: {fileID: 1577824888}
+  dialogueData: {fileID: 11400000, guid: 99a19df5dcea30b4bb79b4fd74951509, type: 2}
 --- !u!1001 &2024732729
 PrefabInstance:
   m_ObjectHideFlags: 0
